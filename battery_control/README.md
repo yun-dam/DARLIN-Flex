@@ -3,7 +3,7 @@
 Evaluating locally-hosted LLMs as battery controllers in CityLearn, benchmarked against
 a rule-based controller, a do-nothing baseline, and CityLearn's built-in SAC agent.
 
-**Lino Marrero** · SUPER Fellowship · Nagy Lab · advisor: Yun Dam Ko
+**Lino Marrero** · SUPER Fellowship · advisor: Yun Dam Ko
 
 ---
 
