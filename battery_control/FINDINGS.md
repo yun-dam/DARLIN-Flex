@@ -1,5 +1,5 @@
 # Project Findings Log — LLM Battery Control in CityLearn
-**Lino Marrero · SUPER Fellowship (advisor: Yun Dam Ko) · through Week 6**
+**Lino Marrero · SUPER Fellowship · Jain Lab (advisor: Yun Dam Ko) · through Week 8**
 
 Running record of what was built, what was found, and what it means. Update as you go.
 
