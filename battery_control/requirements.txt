@@ -1,0 +1,12 @@
+# Python 3.12.13
+# citylearn installed with --no-deps (see README Setup) to avoid an openstudio
+# version pin that fails on Apple Silicon.
+citylearn==2.5.0
+gymnasium==0.28.1
+numpy==1.26.4
+pandas==3.0.3
+scipy==1.17.1
+simplejson==4.1.1
+torch==2.12.1
+matplotlib==3.11.1
+requests==2.34.2

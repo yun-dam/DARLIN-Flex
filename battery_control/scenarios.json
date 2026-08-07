@@ -1,0 +1,169 @@
+{
+  "modes": ["charge", "hold", "discharge_soft", "discharge_hard"],
+  "soc_guards": {
+    "min_soc_for_discharge": 0.10,
+    "max_soc_for_charge": 0.95
+  },
+  "scenarios": [
+    {
+      "id": 1,
+      "name": "evening_peak_full_battery",
+      "state": {
+        "hour": 18,
+        "electricity_price_usd_per_kwh": 0.54,
+        "price_context": "peak pricing window (16:00-21:00)",
+        "pv_generation_kw": 0.4,
+        "building_load_kw": 6.2,
+        "battery_soc": 0.85,
+        "battery_capacity_kwh": 13.5
+      },
+      "acceptable_modes": ["discharge_hard"],
+      "forbidden_modes": ["charge"],
+      "rationale": "Peak price, high load, nearly full battery: textbook hard discharge to shave peak."
+    },
+    {
+      "id": 2,
+      "name": "midday_pv_surplus_low_soc",
+      "state": {
+        "hour": 12,
+        "electricity_price_usd_per_kwh": 0.12,
+        "price_context": "off-peak, midday",
+        "pv_generation_kw": 8.1,
+        "building_load_kw": 2.9,
+        "battery_soc": 0.30,
+        "battery_capacity_kwh": 13.5
+      },
+      "acceptable_modes": ["charge"],
+      "forbidden_modes": ["discharge_soft", "discharge_hard"],
+      "rationale": "Large PV surplus, cheap grid, empty-ish battery: store the surplus."
+    },
+    {
+      "id": 3,
+      "name": "peak_price_empty_battery_soc_guard",
+      "state": {
+        "hour": 19,
+        "electricity_price_usd_per_kwh": 0.54,
+        "price_context": "peak pricing window (16:00-21:00)",
+        "pv_generation_kw": 0.0,
+        "building_load_kw": 5.5,
+        "battery_soc": 0.05,
+        "battery_capacity_kwh": 13.5
+      },
+      "acceptable_modes": ["hold"],
+      "forbidden_modes": ["discharge_soft", "discharge_hard"],
+      "rationale": "Price screams discharge but SOC is below the 10% floor. The correct move is hold. This is the key SOC-guard test."
+    },
+    {
+      "id": 4,
+      "name": "overnight_cheap_charge_window",
+      "state": {
+        "hour": 2,
+        "electricity_price_usd_per_kwh": 0.08,
+        "price_context": "off-peak overnight (lowest tariff of the day)",
+        "pv_generation_kw": 0.0,
+        "building_load_kw": 1.1,
+        "battery_soc": 0.20,
+        "battery_capacity_kwh": 13.5
+      },
+      "acceptable_modes": ["charge"],
+      "forbidden_modes": ["discharge_soft", "discharge_hard"],
+      "rationale": "Cheapest tariff, low SOC, morning ramp ahead: charge from grid."
+    },
+    {
+      "id": 5,
+      "name": "pv_surplus_battery_full_soc_guard",
+      "state": {
+        "hour": 13,
+        "electricity_price_usd_per_kwh": 0.12,
+        "price_context": "off-peak, midday",
+        "pv_generation_kw": 7.5,
+        "building_load_kw": 2.4,
+        "battery_soc": 0.98,
+        "battery_capacity_kwh": 13.5
+      },
+      "acceptable_modes": ["hold"],
+      "forbidden_modes": ["charge"],
+      "rationale": "PV surplus suggests charging but battery is above the 95% ceiling. Mirror image of scenario 3."
+    },
+    {
+      "id": 6,
+      "name": "shoulder_hour_no_signal",
+      "state": {
+        "hour": 10,
+        "electricity_price_usd_per_kwh": 0.22,
+        "price_context": "mid-tier shoulder pricing",
+        "pv_generation_kw": 3.0,
+        "building_load_kw": 3.1,
+        "battery_soc": 0.55,
+        "battery_capacity_kwh": 13.5
+      },
+      "acceptable_modes": ["hold"],
+      "forbidden_modes": ["discharge_hard"],
+      "rationale": "No strong price or PV signal, balanced load: do nothing. Tests restraint - LLMs tend to over-act."
+    },
+    {
+      "id": 7,
+      "name": "high_price_mid_soc",
+      "state": {
+        "hour": 17,
+        "electricity_price_usd_per_kwh": 0.48,
+        "price_context": "peak pricing window (16:00-21:00), 4 peak hours remain",
+        "pv_generation_kw": 1.2,
+        "building_load_kw": 4.8,
+        "battery_soc": 0.50,
+        "battery_capacity_kwh": 13.5
+      },
+      "acceptable_modes": ["discharge_soft", "discharge_hard"],
+      "forbidden_modes": ["charge"],
+      "rationale": "Peak price with only half a battery and hours of peak left: discharge, with soft arguably smarter (ration across remaining peak hours)."
+    },
+    {
+      "id": 8,
+      "name": "pre_peak_ramp_onset",
+      "state": {
+        "hour": 15,
+        "electricity_price_usd_per_kwh": 0.30,
+        "price_context": "shoulder, peak window starts at 16:00",
+        "pv_generation_kw": 4.5,
+        "building_load_kw": 3.8,
+        "battery_soc": 0.90,
+        "battery_capacity_kwh": 13.5
+      },
+      "acceptable_modes": ["hold", "discharge_soft"],
+      "forbidden_modes": ["discharge_hard", "charge"],
+      "rationale": "One hour before peak, battery nearly full: conserve for the peak (hold) or start easing in (soft). Hard discharge now wastes capacity."
+    },
+    {
+      "id": 9,
+      "name": "cheap_price_battery_full",
+      "state": {
+        "hour": 3,
+        "electricity_price_usd_per_kwh": 0.08,
+        "price_context": "off-peak overnight (lowest tariff of the day)",
+        "pv_generation_kw": 0.0,
+        "building_load_kw": 0.9,
+        "battery_soc": 0.96,
+        "battery_capacity_kwh": 13.5
+      },
+      "acceptable_modes": ["hold"],
+      "forbidden_modes": ["charge", "discharge_hard"],
+      "rationale": "Cheap price tempts charging but battery is above the ceiling; nothing to discharge for either."
+    },
+    {
+      "id": 10,
+      "name": "conflicting_signals_pv_and_peak",
+      "state": {
+        "hour": 16,
+        "electricity_price_usd_per_kwh": 0.48,
+        "price_context": "peak pricing window just started (16:00-21:00)",
+        "pv_generation_kw": 6.0,
+        "building_load_kw": 3.5,
+        "battery_soc": 0.60,
+        "battery_capacity_kwh": 13.5
+      },
+      "acceptable_modes": ["discharge_soft", "discharge_hard", "hold"],
+      "forbidden_modes": ["charge"],
+      "rationale": "PV surplus says charge, peak price says discharge. Any answer except charging at peak price is defensible - this probes the model's reasoning under conflict. Watch the reasoning field closely here."
+    }
+  ]
+}

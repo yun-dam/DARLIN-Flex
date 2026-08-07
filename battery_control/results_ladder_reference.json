@@ -1,0 +1,8951 @@
+{
+  "v0": {
+    "arm": "v0",
+    "hours": 48,
+    "district": false,
+    "mock": false,
+    "runtime_s": 0.2,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 91.66680042441286,
+      "mean": 2.5972837603637218
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.9999999958902211,
+      "cost_total": 1.000000001381027,
+      "daily_one_minus_load_factor_average": 1.000000042886689,
+      "daily_peak_average": 1.499999959379074,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 1.0,
+      "monthly_one_minus_load_factor_average": 0.9975484450310308,
+      "ramping_average": 1.0000000354909322,
+      "zero_net_energy": 1.0
+    },
+    "end_soc": 0.5,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      3.1261833533644676,
+      1.7603500932455063,
+      2.6775167919695377,
+      0.12983345985412598,
+      -1.3335666060447693,
+      -2.8973666429519653,
+      -2.9505837708711624,
+      -2.4774001091718674,
+      -4.068066745996475,
+      -3.1555668115615845,
+      -4.0489668399095535,
+      -2.2010999340564013,
+      1.9704835712909698,
+      2.9991500228643417,
+      7.019133579587937,
+      12.032233457756043,
+      8.375116686766837,
+      6.816500228816274,
+      9.253525002892815,
+      4.656950037254887,
+      4.145891676932571,
+      3.1205334468404473,
+      3.1974001036008204,
+      2.8246667487978954,
+      3.0755167435854673,
+      2.3599667698144913,
+      0.14901672303676605,
+      0.6280334293842316,
+      -2.392783224582672,
+      -3.1683498919010162,
+      -5.123233124613762,
+      -4.146433271467686,
+      -1.5163329243659973,
+      -0.939550131559372,
+      0.6928167641162872,
+      4.346599988639355,
+      6.683700017631054,
+      8.01643356308341,
+      6.78090048424999,
+      6.967383525371552,
+      5.913033444786073,
+      4.73085006131133
+    ]
+  },
+  "rbc": {
+    "arm": "rbc",
+    "hours": 48,
+    "district": false,
+    "mock": false,
+    "runtime_s": 0.2,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 74.24480979383105,
+      "mean": 2.591049806198366
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.880955920473221,
+      "cost_total": 0.8779746936399698,
+      "daily_one_minus_load_factor_average": 0.9317982812388811,
+      "daily_peak_average": 1.392770932757978,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.9241331609344907,
+      "monthly_one_minus_load_factor_average": 0.9978367720745,
+      "ramping_average": 0.7549151100621394,
+      "zero_net_energy": 0.976331168338656
+    },
+    "end_soc": 0.24651132822036742,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      3.8761833906173706,
+      2.51035013794899,
+      4.927516877651215,
+      2.30528561770916,
+      0.36991265416145325,
+      -1.5082532316446304,
+      -2.538730576634407,
+      -3.5090015307068825,
+      -2.532140702009201,
+      -1.6446466445922852,
+      -2.8140393048524857,
+      -1.0851866137236357,
+      0.874286524951458,
+      0.9491501040756702,
+      2.5419260561466217,
+      6.326597094535828,
+      4.78954291343689,
+      5.858551263809204,
+      6.652042105793953,
+      4.5214106393978,
+      4.129885743604973,
+      3.120364735892508,
+      3.1973807767953986,
+      2.8246645583271857,
+      3.075516490265727,
+      3.85996675491333,
+      1.6490167006850243,
+      1.2280333749949932,
+      -0.14278311282396317,
+      -0.9183497279882431,
+      -2.1232332214713097,
+      -1.1464332966133952,
+      -0.8729895502328873,
+      -0.1857967972755432,
+      0.7364265322685242,
+      2.285529464483261,
+      5.007487662136555,
+      5.7424169927835464,
+      6.008424168751638,
+      6.864539048671723,
+      4.070561725997926,
+      4.4498041476150405
+    ],
+    "rbc_modes": {
+      "charge": 69,
+      "hold": 117,
+      "discharge_soft": 27,
+      "discharge_hard": 27
+    }
+  },
+  "L1_dist": {
+    "arm": "L1",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 15147.5,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 75.30007537260252,
+      "mean": 2.547629234022968
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8841163812559897,
+      "cost_total": 0.8862519211232793,
+      "daily_one_minus_load_factor_average": 0.9444801868258766,
+      "daily_peak_average": 1.3929307254244607,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.9262863971282611,
+      "monthly_one_minus_load_factor_average": 0.9998450199488028,
+      "ramping_average": 0.7695244469806753,
+      "zero_net_energy": 0.9660960775643821
+    },
+    "end_soc": 0.19600908756256102,
+    "llm": {
+      "level": 1,
+      "calls": 213,
+      "timeouts": 6,
+      "parse_failures": 0,
+      "agreement": 0.6429,
+      "mean_deviation": 0.3714,
+      "compliance": 1.0,
+      "modes": {
+        "charge": 61,
+        "hold": 142,
+        "discharge_soft": 13,
+        "discharge_hard": 24
+      },
+      "latency": {
+        "median": 18.235767374979332,
+        "p95": 42.136435042019,
+        "max": 79.77895404200535,
+        "mean": 21.698172673257968,
+        "n": 207
+      },
+      "top_disagreements": [
+        [
+          "hold->charge",
+          58
+        ],
+        [
+          "hold->discharge_soft",
+          14
+        ],
+        [
+          "hold->discharge_hard",
+          3
+        ]
+      ],
+      "sample_reasons": [
+        "reason: near typical and moderate charge, save it. Action: hold",
+        "reason: near typical and moderate charge. Action: hold",
+        "reason: exporting solar, store it. Action: charge",
+        "reason: near typical and moderate charge, save it. Action: hold",
+        "reason: near typical and moderate charge. Action: hold"
+      ]
+    }
+  },
+  "L2_dist": {
+    "arm": "L2",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 6148.1,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 84.52586921641227,
+      "mean": 2.51253987021232
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.9117376241711028,
+      "cost_total": 0.9013243091384251,
+      "daily_one_minus_load_factor_average": 0.9826495855103106,
+      "daily_peak_average": 1.4596482178230727,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.9571456668963501,
+      "monthly_one_minus_load_factor_average": 1.0014679405312104,
+      "ramping_average": 0.9011393354350836,
+      "zero_net_energy": 0.9733612055812586
+    },
+    "end_soc": 0.15947265625,
+    "llm": {
+      "level": 2,
+      "calls": 211,
+      "timeouts": 2,
+      "parse_failures": 0,
+      "agreement": 0.4476,
+      "mean_deviation": 0.6286,
+      "compliance": 0.9787,
+      "modes": {
+        "charge": 47,
+        "hold": 157,
+        "discharge_soft": 19,
+        "discharge_hard": 17
+      },
+      "latency": {
+        "median": 27.656514582922682,
+        "p95": 45.96158033399843,
+        "max": 87.96940979198553,
+        "mean": 28.552413816643995,
+        "n": 209
+      },
+      "top_disagreements": [
+        [
+          "hold->charge",
+          72
+        ],
+        [
+          "hold->discharge_soft",
+          13
+        ],
+        [
+          "hold->discharge_hard",
+          11
+        ],
+        [
+          "discharge_soft->discharge_hard",
+          6
+        ],
+        [
+          "discharge_hard->discharge_soft",
+          5
+        ]
+      ],
+      "sample_reasons": [
+        "reason: Current load below typical, battery not full. Action: hold",
+        "reason: Battery is 50% full, current load is below typical. Action: hold",
+        "reason: Charge during surplus to store energy. Action: charge",
+        "reason: Current load below typical, battery has reserve. Action: hold",
+        "reason: Hold to reserve for evening peak. Action: hold"
+      ]
+    }
+  },
+  "L3_dist": {
+    "arm": "L3",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 9133.2,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 83.17813999499873,
+      "mean": 2.5006687325528096
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8393354413676477,
+      "cost_total": 0.8245897564074722,
+      "daily_one_minus_load_factor_average": 1.0083757791521506,
+      "daily_peak_average": 1.499999959379074,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.864126005991289,
+      "monthly_one_minus_load_factor_average": 1.0020169933367322,
+      "ramping_average": 0.8808454654581096,
+      "zero_net_energy": 0.9921146519364379
+    },
+    "end_soc": 0.15706766545772552,
+    "llm": {
+      "level": 3,
+      "calls": 216,
+      "timeouts": 9,
+      "parse_failures": 0,
+      "agreement": 0.3905,
+      "mean_deviation": 0.7286,
+      "compliance": 0.9574,
+      "modes": {
+        "charge": 47,
+        "hold": 155,
+        "discharge_soft": 22,
+        "discharge_hard": 16
+      },
+      "latency": {
+        "median": 37.4192912079161,
+        "p95": 68.42436816601548,
+        "max": 83.10009145899676,
+        "mean": 40.20522957488249,
+        "n": 207
+      },
+      "top_disagreements": [
+        [
+          "hold->charge",
+          65
+        ],
+        [
+          "hold->discharge_soft",
+          22
+        ],
+        [
+          "hold->discharge_hard",
+          10
+        ],
+        [
+          "discharge_soft->discharge_hard",
+          9
+        ],
+        [
+          "discharge_soft->hold",
+          7
+        ]
+      ],
+      "sample_reasons": [
+        "reason: current load is a peak compared to recent history. Action: discharge_hard",
+        "reason: Current load is a valley, battery is 50% full. Action: hold",
+        "reason: Valley with surplus, charge to store. Action: charge",
+        "reason: current load is moderate, discharge to flatten peak. Action: discharge_soft",
+        "reason: Current load lower than recent average, valley. Action: hold"
+      ]
+    }
+  },
+  "L3_run1": {
+    "arm": "L3",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 45772.1,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 89.04778276245591,
+      "mean": 2.519859477903404
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8716974401261945,
+      "cost_total": 0.8646423948824118,
+      "daily_one_minus_load_factor_average": 1.005504946711833,
+      "daily_peak_average": 1.4992280918832224,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.8960265553822587,
+      "monthly_one_minus_load_factor_average": 1.0011294008517477,
+      "ramping_average": 0.9637417471321661,
+      "zero_net_energy": 0.9653952570832466
+    },
+    "end_soc": 0.20320689380168916,
+    "llm": {
+      "level": 3,
+      "calls": 218,
+      "timeouts": 14,
+      "parse_failures": 0,
+      "agreement": 0.3714,
+      "mean_deviation": 0.7619,
+      "compliance": 0.9333,
+      "modes": {
+        "charge": 45,
+        "hold": 159,
+        "discharge_soft": 19,
+        "discharge_hard": 17
+      },
+      "latency": {
+        "median": 34.73482391703874,
+        "p95": 63.654523791978136,
+        "max": 87.81459350022487,
+        "mean": 37.899480695894454,
+        "n": 204
+      },
+      "top_disagreements": [
+        [
+          "hold->charge",
+          68
+        ],
+        [
+          "hold->discharge_soft",
+          23
+        ],
+        [
+          "hold->discharge_hard",
+          11
+        ],
+        [
+          "discharge_soft->discharge_hard",
+          8
+        ],
+        [
+          "discharge_soft->charge",
+          5
+        ]
+      ],
+      "sample_reasons": [
+        "reason: current load is a peak compared to recent history. Action: discharge_hard",
+        "reason: Current load is a valley, battery is 50% full. Action: hold",
+        "reason: Valley with surplus, charge to store. Action: charge",
+        "reason: current load is moderate, discharge to flatten peak. Action: discharge_soft",
+        "reason: Current load lower than recent average, valley. Action: hold"
+      ]
+    }
+  },
+  "L3_run2": {
+    "arm": "L3",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 9520.7,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 83.17813999499873,
+      "mean": 2.5006687325528096
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8393354413676477,
+      "cost_total": 0.8245897564074722,
+      "daily_one_minus_load_factor_average": 1.0083757791521506,
+      "daily_peak_average": 1.499999959379074,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.864126005991289,
+      "monthly_one_minus_load_factor_average": 1.0020169933367322,
+      "ramping_average": 0.8808454654581096,
+      "zero_net_energy": 0.9921146519364379
+    },
+    "end_soc": 0.15706766545772552,
+    "llm": {
+      "level": 3,
+      "calls": 216,
+      "timeouts": 9,
+      "parse_failures": 0,
+      "agreement": 0.3905,
+      "mean_deviation": 0.7286,
+      "compliance": 0.9574,
+      "modes": {
+        "charge": 47,
+        "hold": 155,
+        "discharge_soft": 22,
+        "discharge_hard": 16
+      },
+      "latency": {
+        "median": 39.02044974989258,
+        "p95": 73.65128245903179,
+        "max": 83.44595120800659,
+        "mean": 42.07670186487688,
+        "n": 207
+      },
+      "top_disagreements": [
+        [
+          "hold->charge",
+          65
+        ],
+        [
+          "hold->discharge_soft",
+          22
+        ],
+        [
+          "hold->discharge_hard",
+          10
+        ],
+        [
+          "discharge_soft->discharge_hard",
+          9
+        ],
+        [
+          "discharge_soft->hold",
+          7
+        ]
+      ],
+      "sample_reasons": [
+        "reason: current load is a peak compared to recent history. Action: discharge_hard",
+        "reason: Current load is a valley, battery is 50% full. Action: hold",
+        "reason: Valley with surplus, charge to store. Action: charge",
+        "reason: current load is moderate, discharge to flatten peak. Action: discharge_soft",
+        "reason: Current load lower than recent average, valley. Action: hold"
+      ]
+    }
+  },
+  "L3_run3": {
+    "arm": "L3",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 9173.6,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 83.17813999499873,
+      "mean": 2.5006687325528096
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8393354413676477,
+      "cost_total": 0.8245897564074722,
+      "daily_one_minus_load_factor_average": 1.0083757791521506,
+      "daily_peak_average": 1.499999959379074,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.864126005991289,
+      "monthly_one_minus_load_factor_average": 1.0020169933367322,
+      "ramping_average": 0.8808454654581096,
+      "zero_net_energy": 0.9921146519364379
+    },
+    "end_soc": 0.15706766545772552,
+    "llm": {
+      "level": 3,
+      "calls": 216,
+      "timeouts": 9,
+      "parse_failures": 0,
+      "agreement": 0.3905,
+      "mean_deviation": 0.7286,
+      "compliance": 0.9574,
+      "modes": {
+        "charge": 47,
+        "hold": 155,
+        "discharge_soft": 22,
+        "discharge_hard": 16
+      },
+      "latency": {
+        "median": 37.50813829200342,
+        "p95": 67.79692999995314,
+        "max": 83.30139737506397,
+        "mean": 40.400434716230095,
+        "n": 207
+      },
+      "top_disagreements": [
+        [
+          "hold->charge",
+          65
+        ],
+        [
+          "hold->discharge_soft",
+          22
+        ],
+        [
+          "hold->discharge_hard",
+          10
+        ],
+        [
+          "discharge_soft->discharge_hard",
+          9
+        ],
+        [
+          "discharge_soft->hold",
+          7
+        ]
+      ],
+      "sample_reasons": [
+        "reason: current load is a peak compared to recent history. Action: discharge_hard",
+        "reason: Current load is a valley, battery is 50% full. Action: hold",
+        "reason: Valley with surplus, charge to store. Action: charge",
+        "reason: current load is moderate, discharge to flatten peak. Action: discharge_soft",
+        "reason: Current load lower than recent average, valley. Action: hold"
+      ]
+    }
+  },
+  "L3_clean": {
+    "arm": "L3",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 8863.3,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 85.54891347001788,
+      "mean": 2.500666874098612
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8387634010251122,
+      "cost_total": 0.8246864799942536,
+      "daily_one_minus_load_factor_average": 1.0080740967341568,
+      "daily_peak_average": 1.4992280918832224,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.864125632912034,
+      "monthly_one_minus_load_factor_average": 1.0020170792922254,
+      "ramping_average": 0.913667004003031,
+      "zero_net_energy": 0.992114231960714
+    },
+    "end_soc": 0.1570586621761322,
+    "llm": {
+      "level": 3,
+      "calls": 212,
+      "timeouts": 3,
+      "parse_failures": 0,
+      "agreement": 0.3905,
+      "mean_deviation": 0.7286,
+      "compliance": 0.9375,
+      "modes": {
+        "charge": 48,
+        "hold": 153,
+        "discharge_soft": 23,
+        "discharge_hard": 16
+      },
+      "latency": {
+        "median": 34.50948283309117,
+        "p95": 62.956265582935885,
+        "max": 112.49498416599818,
+        "mean": 38.0973280488099,
+        "n": 209
+      },
+      "top_disagreements": [
+        [
+          "hold->charge",
+          64
+        ],
+        [
+          "hold->discharge_soft",
+          21
+        ],
+        [
+          "discharge_soft->discharge_hard",
+          10
+        ],
+        [
+          "hold->discharge_hard",
+          10
+        ],
+        [
+          "discharge_soft->hold",
+          7
+        ]
+      ],
+      "sample_reasons": [
+        "reason: current load is a peak compared to recent history. Action: discharge_hard",
+        "reason: Current load is a valley, battery is 50% full. Action: hold",
+        "reason: Valley with surplus, charge to store. Action: charge",
+        "reason: current load is moderate, discharge to flatten peak. Action: discharge_soft",
+        "reason: Current load lower than recent average, valley. Action: hold"
+      ]
+    }
+  },
+  "SAC_5ep": {
+    "arm": "SAC",
+    "episodes": 5,
+    "hours": "full_year",
+    "train_seconds": 721.5,
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 1.0443044800493415,
+      "cost_total": 1.038809117567801,
+      "daily_one_minus_load_factor_average": 0.9951636227157052,
+      "daily_peak_average": 1.0484974902737534,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 1.0449332190663514,
+      "monthly_one_minus_load_factor_average": 0.9983455374730091,
+      "ramping_average": 1.2331432565036047,
+      "zero_net_energy": 1.0607342556866501
+    },
+    "raw": {},
+    "note": "CityLearn built-in SAC, light training"
+  },
+  "L0_dev0_mock": {
+    "arm": "L0",
+    "hours": 48,
+    "district": true,
+    "mock": true,
+    "runtime_s": 0.1,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 74.24480979383105,
+      "mean": 2.591049806198366
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.880955920473221,
+      "cost_total": 0.8779746936399698,
+      "daily_one_minus_load_factor_average": 0.9317982812388811,
+      "daily_peak_average": 1.392770932757978,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.9241331609344907,
+      "monthly_one_minus_load_factor_average": 0.9978367720745,
+      "ramping_average": 0.7549151100621394,
+      "zero_net_energy": 0.976331168338656
+    },
+    "end_soc": 0.24651132822036742,
+    "llm": {
+      "level": 0,
+      "calls": 0,
+      "timeouts": 0,
+      "parse_failures": 0,
+      "agreement": 1.0,
+      "mean_deviation": 0.0,
+      "compliance": 0.5798,
+      "modes": {
+        "charge": 119,
+        "hold": 67,
+        "discharge_soft": 27,
+        "discharge_hard": 27
+      },
+      "latency": null,
+      "top_disagreements": [],
+      "sample_reasons": [],
+      "override_rate": 0.0,
+      "overrides": 0,
+      "clamped": 0,
+      "sample_override_reasons": []
+    }
+  },
+  "L0_free": {
+    "arm": "L0",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 4716.0,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 76.34529947728032,
+      "mean": 2.5729171861729396
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8814043539724986,
+      "cost_total": 0.8761340787157345,
+      "daily_one_minus_load_factor_average": 0.9675626027348072,
+      "daily_peak_average": 1.4479899492592283,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.9260764638896196,
+      "monthly_one_minus_load_factor_average": 0.9986754251321913,
+      "ramping_average": 0.7845255483182868,
+      "zero_net_energy": 0.9722786564804011
+    },
+    "end_soc": 0.21501375138759612,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      3.8761833906173706,
+      2.51035013794899,
+      4.927516877651215,
+      2.30528561770916,
+      0.36991265416145325,
+      -1.5082532316446304,
+      -2.538730576634407,
+      -3.5090015307068825,
+      -2.532140702009201,
+      -2.5446467623114586,
+      -2.8140393048524857,
+      -1.0851866137236357,
+      0.874286524951458,
+      0.049150098115205765,
+      2.5419260561466217,
+      6.326597094535828,
+      4.925013065338135,
+      5.858551263809204,
+      8.094779208302498,
+      4.502657259814441,
+      4.140780995832756,
+      3.120364735892508,
+      3.1973807767953986,
+      2.8246645583271857,
+      3.075516490265727,
+      3.85996675491333,
+      1.6490167006850243,
+      1.2280333749949932,
+      -0.14278311282396317,
+      -0.9183497279882431,
+      -2.1232332214713097,
+      -1.1464332966133952,
+      -0.8729895502328873,
+      -0.1857967972755432,
+      -0.16357344388961792,
+      2.285529464483261,
+      5.007487662136555,
+      5.7424169927835464,
+      6.008424168751638,
+      6.868095061779023,
+      4.287951786422731,
+      4.488143285646046
+    ],
+    "llm": {
+      "level": 0,
+      "calls": 210,
+      "timeouts": 0,
+      "parse_failures": 16,
+      "agreement": 0.8714,
+      "mean_deviation": 0.1524,
+      "compliance": 0.7419,
+      "modes": {
+        "charge": 93,
+        "hold": 90,
+        "discharge_soft": 31,
+        "discharge_hard": 26
+      },
+      "latency": {
+        "median": 15.522829165915027,
+        "p95": 51.47723550000228,
+        "max": 59.271621209103614,
+        "mean": 20.34960247641097,
+        "n": 210
+      },
+      "top_disagreements": [
+        [
+          "hold->charge",
+          22
+        ],
+        [
+          "discharge_soft->charge",
+          4
+        ],
+        [
+          "hold->discharge_hard",
+          1
+        ]
+      ],
+      "sample_reasons": [
+        "reason: negative load, store surplus. Action: charge",
+        "reason: district in valley, store for peaks. Action: charge",
+        "reason: Store surplus solar during negative load. Action: charge",
+        "",
+        ""
+      ],
+      "override_rate": 0.1286,
+      "overrides": 27,
+      "clamped": 0,
+      "sample_override_reasons": [
+        "reason: net load positive, charging not optimal. Action: hold",
+        "reason: charging during positive load may cause district spike. Action: hold",
+        "reason: charging during positive net load is inefficient. Action: hold",
+        "reason: charging not recommended when net load is positive. Action: hold",
+        "reason: Net load positive, charging would increase grid load. Action: hold"
+      ]
+    }
+  },
+  "L0_dev1": {
+    "arm": "L0",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 4632.5,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 74.24480979383105,
+      "mean": 2.591049806198366
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.880955920473221,
+      "cost_total": 0.8779746936399698,
+      "daily_one_minus_load_factor_average": 0.9317982812388811,
+      "daily_peak_average": 1.392770932757978,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.9241331609344907,
+      "monthly_one_minus_load_factor_average": 0.9978367720745,
+      "ramping_average": 0.7549151100621394,
+      "zero_net_energy": 0.976331168338656
+    },
+    "end_soc": 0.24651132822036742,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      3.8761833906173706,
+      2.51035013794899,
+      4.927516877651215,
+      2.30528561770916,
+      0.36991265416145325,
+      -1.5082532316446304,
+      -2.538730576634407,
+      -3.5090015307068825,
+      -2.532140702009201,
+      -1.6446466445922852,
+      -2.8140393048524857,
+      -1.0851866137236357,
+      0.874286524951458,
+      0.9491501040756702,
+      2.5419260561466217,
+      6.326597094535828,
+      4.78954291343689,
+      5.858551263809204,
+      6.652042105793953,
+      4.5214106393978,
+      4.129885743604973,
+      3.120364735892508,
+      3.1973807767953986,
+      2.8246645583271857,
+      3.075516490265727,
+      3.85996675491333,
+      1.6490167006850243,
+      1.2280333749949932,
+      -0.14278311282396317,
+      -0.9183497279882431,
+      -2.1232332214713097,
+      -1.1464332966133952,
+      -0.8729895502328873,
+      -0.1857967972755432,
+      0.7364265322685242,
+      2.285529464483261,
+      5.007487662136555,
+      5.7424169927835464,
+      6.008424168751638,
+      6.864539048671723,
+      4.070561725997926,
+      4.4498041476150405
+    ],
+    "llm": {
+      "level": 0,
+      "calls": 210,
+      "timeouts": 0,
+      "parse_failures": 16,
+      "agreement": 0.8952,
+      "mean_deviation": 0.1048,
+      "compliance": 0.7041,
+      "modes": {
+        "charge": 98,
+        "hold": 88,
+        "discharge_soft": 28,
+        "discharge_hard": 26
+      },
+      "latency": {
+        "median": 15.861100707901642,
+        "p95": 54.120590542210266,
+        "max": 64.5018627080135,
+        "mean": 22.055245513120845,
+        "n": 210
+      },
+      "top_disagreements": [
+        [
+          "hold->charge",
+          21
+        ],
+        [
+          "discharge_soft->discharge_hard",
+          1
+        ]
+      ],
+      "sample_reasons": [
+        "reason: negative load, store surplus. Action: charge",
+        "reason: district in valley, store for peaks. Action: charge",
+        "reason: Store surplus solar during negative load. Action: charge",
+        "",
+        ""
+      ],
+      "override_rate": 0.1048,
+      "overrides": 22,
+      "clamped": 6,
+      "sample_override_reasons": [
+        "reason: net load positive, charging not optimal. Action: hold",
+        "reason: charging during positive load may cause district spike. Action: hold",
+        "reason: charging during positive net load is inefficient. Action: hold",
+        "reason: charging not recommended when net load is positive. Action: hold",
+        "reason: Net load positive, charging would increase grid load. Action: hold"
+      ]
+    }
+  },
+  "L3_series": {
+    "arm": "L3",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 8065.4,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 87.50886367267861,
+      "mean": 2.571890368811806
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8839700628879109,
+      "cost_total": 0.8864239808239738,
+      "daily_one_minus_load_factor_average": 0.9924599331745287,
+      "daily_peak_average": 1.4854806789006667,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.921743943782959,
+      "monthly_one_minus_load_factor_average": 0.9987229165326836,
+      "ramping_average": 0.9424366111952159,
+      "zero_net_energy": 0.9830123399589077
+    },
+    "end_soc": 0.22904655039310456,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      1.226183407008648,
+      1.53337362408638,
+      3.888632580637932,
+      2.30528561770916,
+      -0.5300873517990112,
+      -1.6732258349657059,
+      -1.9427617341279984,
+      -2.8773999586701393,
+      -1.9981105029582977,
+      -1.655566692352295,
+      -2.6502992659807205,
+      -1.6010999716818333,
+      1.8204837664961815,
+      0.04915013536810875,
+      2.5000898061752324,
+      7.7631727268218995,
+      8.268366675322746,
+      6.609157365733388,
+      8.930045827325188,
+      4.655480186714726,
+      4.145891676932571,
+      3.1205334468404473,
+      3.1974001036008204,
+      2.8246667487978954,
+      3.8255167454481125,
+      2.796162262558937,
+      0.14901672303676605,
+      1.2280333749949932,
+      -0.14278311282396317,
+      -1.2777139395475388,
+      -3.623233340680599,
+      -1.8964332966133952,
+      -1.1663328856229782,
+      -2.239550232887268,
+      -0.1814000904560089,
+      2.764643684029579,
+      5.533700056374073,
+      5.33312526345253,
+      6.229479035661619,
+      6.9260608172416696,
+      5.913033444786073,
+      4.73085006131133
+    ],
+    "llm": {
+      "level": 3,
+      "calls": 210,
+      "timeouts": 0,
+      "parse_failures": 41,
+      "agreement": 0.5476,
+      "mean_deviation": 0.5286,
+      "compliance": 0.8871,
+      "modes": {
+        "charge": 62,
+        "hold": 134,
+        "discharge_soft": 23,
+        "discharge_hard": 21
+      },
+      "latency": {
+        "median": 38.76801587501541,
+        "p95": 54.107588291866705,
+        "max": 72.34921554196626,
+        "mean": 38.39962907123734,
+        "n": 210
+      },
+      "top_disagreements": [
+        [
+          "hold->charge",
+          51
+        ],
+        [
+          "hold->discharge_soft",
+          16
+        ],
+        [
+          "discharge_soft->hold",
+          6
+        ],
+        [
+          "hold->discharge_hard",
+          6
+        ],
+        [
+          "discharge_soft->charge",
+          5
+        ]
+      ],
+      "sample_reasons": [
+        "reason: current load is a peak compared to recent history. Action: discharge_hard",
+        "reason: Current load is a valley, battery is 50% full. Action: hold",
+        "reason: Valley with surplus, charge to store. Action: charge",
+        "reason: current load is moderate, discharge to flatten peak. Action: discharge_soft",
+        "reason: Current load lower than recent average, valley. Action: hold"
+      ],
+      "override_rate": 0.4524,
+      "overrides": 95,
+      "clamped": 0,
+      "sample_override_reasons": [
+        "reason: current load is a peak compared to recent history. Action: discharge_hard",
+        "reason: Current load is a valley, battery is 50% full. Action: hold",
+        "reason: current load is moderate, discharge to flatten peak. Action: discharge_soft",
+        "reason: Current load lower than recent average, valley. Action: hold",
+        "reason: Low battery, current load is ordinary. Action: hold"
+      ]
+    }
+  },
+  "SAC_100ep": {
+    "arm": "SAC",
+    "episodes": 100,
+    "hours": "full_year",
+    "train_seconds": 19900.4,
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 1.0193872872182435,
+      "cost_total": 1.0142471603316134,
+      "daily_one_minus_load_factor_average": 0.991316232848683,
+      "daily_peak_average": 1.009746917891459,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 1.0198229894207125,
+      "monthly_one_minus_load_factor_average": 0.9927412615425488,
+      "ramping_average": 1.1257026919797621,
+      "zero_net_energy": 1.0412351530871315
+    },
+    "raw": {},
+    "note": "CityLearn built-in SAC, light training"
+  },
+  "L1_fixed": {
+    "arm": "L1",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 5810.0,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 75.55168741942742,
+      "mean": 2.547631993601057
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8841414925334773,
+      "cost_total": 0.8863133104047878,
+      "daily_one_minus_load_factor_average": 0.942063650828043,
+      "daily_peak_average": 1.3929307254244607,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.9263319205951215,
+      "monthly_one_minus_load_factor_average": 0.9998448923153666,
+      "ramping_average": 0.7730078226281811,
+      "zero_net_energy": 0.9660930527418792
+    },
+    "end_soc": 0.1960015058517456,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      3.8761833906173706,
+      2.51035013794899,
+      4.927516877651215,
+      2.30528561770916,
+      0.36991265416145325,
+      -1.5082532316446304,
+      -2.538730576634407,
+      -3.5090015307068825,
+      -2.55030819773674,
+      -1.655566692352295,
+      -2.7938115149736404,
+      -1.0851866137236357,
+      0.874286524951458,
+      0.9491501040756702,
+      2.5430627167224884,
+      6.326764941215515,
+      4.807843565940857,
+      6.713814777308706,
+      5.909911930561066,
+      4.423731811344624,
+      4.145891676932571,
+      3.1076658917590976,
+      3.1974001036008204,
+      2.8246667487978954,
+      3.0755167435854673,
+      3.1099667698144913,
+      1.6490167006850243,
+      1.2280333749949932,
+      -0.14278311282396317,
+      -0.9183497279882431,
+      -2.8732332214713097,
+      -1.8964332966133952,
+      -1.166332870721817,
+      -0.18727141618728638,
+      0.7363106608390808,
+      1.5466002449393272,
+      5.200986988842487,
+      6.674365863204002,
+      6.0370163976411035,
+      6.868099114894868,
+      4.083240468406679,
+      4.4498041476150405
+    ],
+    "llm": {
+      "level": 1,
+      "calls": 210,
+      "timeouts": 0,
+      "parse_failures": 8,
+      "agreement": 0.8857,
+      "mean_deviation": 0.1286,
+      "compliance": 1.0,
+      "modes": {
+        "charge": 61,
+        "hold": 141,
+        "discharge_soft": 14,
+        "discharge_hard": 24
+      },
+      "latency": {
+        "median": 23.036483041010797,
+        "p95": 59.33639708417468,
+        "max": 68.90647795889527,
+        "mean": 27.66128858135503,
+        "n": 210
+      },
+      "top_disagreements": [
+        [
+          "hold->discharge_soft",
+          13
+        ],
+        [
+          "hold->charge",
+          8
+        ],
+        [
+          "hold->discharge_hard",
+          3
+        ]
+      ],
+      "sample_reasons": [
+        "reason: near typical and moderate charge, save it. Action: hold",
+        "reason: near typical and moderate charge. Action: hold",
+        "reason: exporting solar, store it. Action: charge",
+        "reason: near typical and moderate charge, save it. Action: hold",
+        "reason: near typical and moderate charge. Action: hold"
+      ],
+      "mode_pairs": [
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ]
+      ],
+      "override_rate": 0.1143,
+      "overrides": 24,
+      "clamped": 0,
+      "sample_override_reasons": [
+        "reason: battery full, net negative, can't charge. Action: hold",
+        "reason: exporting solar, battery full. Action: hold",
+        "reason: battery full, surplus but can't charge. Action: hold",
+        "reason: battery is empty, hold. Action: hold",
+        "reason: net load 0.00, no discharge trigger. Action: hold"
+      ]
+    }
+  },
+  "L0_free_fixed": {
+    "arm": "L0",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 4337.6,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 74.25815098226184,
+      "mean": 2.591059002698349
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8809597301468154,
+      "cost_total": 0.8779763468171053,
+      "daily_one_minus_load_factor_average": 0.9319210310915109,
+      "daily_peak_average": 1.3929305435013875,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.9241358938490123,
+      "monthly_one_minus_load_factor_average": 0.9978363467265459,
+      "ramping_average": 0.7550997986068089,
+      "zero_net_energy": 0.9763352170794555
+    },
+    "end_soc": 0.24652678966522218,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      3.8761833906173706,
+      2.51035013794899,
+      4.927516877651215,
+      2.30528561770916,
+      0.36991265416145325,
+      -1.5082532316446304,
+      -2.538730576634407,
+      -3.5090015307068825,
+      -2.532140702009201,
+      -1.6446466445922852,
+      -2.8140393048524857,
+      -1.0851866137236357,
+      0.874286524951458,
+      0.9491501040756702,
+      2.5419260561466217,
+      6.326597094535828,
+      4.78954291343689,
+      5.858551263809204,
+      6.652042105793953,
+      4.5214106393978,
+      4.129885743604973,
+      3.120364735892508,
+      3.1973807767953986,
+      2.8246645583271857,
+      3.075516490265727,
+      3.85996675491333,
+      1.6490167006850243,
+      1.2280333749949932,
+      -0.14278311282396317,
+      -0.9183497279882431,
+      -2.1232332214713097,
+      -1.1464332966133952,
+      -0.8729895502328873,
+      -0.1857967972755432,
+      0.7364265322685242,
+      2.285529464483261,
+      5.007487662136555,
+      5.7424169927835464,
+      6.008424168751638,
+      6.868095061779023,
+      4.067447144889833,
+      4.4498041476150405
+    ],
+    "llm": {
+      "level": 0,
+      "calls": 210,
+      "timeouts": 0,
+      "parse_failures": 0,
+      "agreement": 0.9952,
+      "mean_deviation": 0.0095,
+      "compliance": 1.0,
+      "modes": {
+        "charge": 69,
+        "hold": 118,
+        "discharge_soft": 27,
+        "discharge_hard": 26
+      },
+      "latency": {
+        "median": 19.45430237497203,
+        "p95": 34.66754079097882,
+        "max": 47.97770024999045,
+        "mean": 20.65111020139219,
+        "n": 210
+      },
+      "top_disagreements": [
+        [
+          "hold->discharge_hard",
+          1
+        ]
+      ],
+      "sample_reasons": [
+        "reason: Net load negative, battery not low. Action: hold",
+        "reason: Current load not peak, battery sufficient. Action: hold",
+        "reason: Store surplus solar during negative load. Action: charge",
+        "reason: ordinary conditions, battery not full. Action: hold",
+        "reason: net load positive, charging not sensible. Action: hold"
+      ],
+      "mode_pairs": [
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ]
+      ],
+      "override_rate": 0.0048,
+      "overrides": 1,
+      "clamped": 0,
+      "sample_override_reasons": [
+        "reason: battery is empty, can't discharge_hard. Action: hold"
+      ]
+    }
+  },
+  "L3_fixed": {
+    "arm": "L3",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "runtime_s": 10402.3,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 87.50886367267861,
+      "mean": 2.571890368811806
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8839700628879109,
+      "cost_total": 0.8864239808239738,
+      "daily_one_minus_load_factor_average": 0.9924599331745287,
+      "daily_peak_average": 1.4854806789006667,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.921743943782959,
+      "monthly_one_minus_load_factor_average": 0.9987229165326836,
+      "ramping_average": 0.9424366111952159,
+      "zero_net_energy": 0.9830123399589077
+    },
+    "end_soc": 0.22904655039310456,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      1.226183407008648,
+      1.53337362408638,
+      3.888632580637932,
+      2.30528561770916,
+      -0.5300873517990112,
+      -1.6732258349657059,
+      -1.9427617341279984,
+      -2.8773999586701393,
+      -1.9981105029582977,
+      -1.655566692352295,
+      -2.6502992659807205,
+      -1.6010999716818333,
+      1.8204837664961815,
+      0.04915013536810875,
+      2.5000898061752324,
+      7.7631727268218995,
+      8.268366675322746,
+      6.609157365733388,
+      8.930045827325188,
+      4.655480186714726,
+      4.145891676932571,
+      3.1205334468404473,
+      3.1974001036008204,
+      2.8246667487978954,
+      3.8255167454481125,
+      2.796162262558937,
+      0.14901672303676605,
+      1.2280333749949932,
+      -0.14278311282396317,
+      -1.2777139395475388,
+      -3.623233340680599,
+      -1.8964332966133952,
+      -1.1663328856229782,
+      -2.239550232887268,
+      -0.1814000904560089,
+      2.764643684029579,
+      5.533700056374073,
+      5.33312526345253,
+      6.229479035661619,
+      6.9260608172416696,
+      5.913033444786073,
+      4.73085006131133
+    ],
+    "llm": {
+      "level": 3,
+      "calls": 210,
+      "timeouts": 0,
+      "parse_failures": 41,
+      "agreement": 0.719,
+      "mean_deviation": 0.3238,
+      "compliance": 1.0,
+      "modes": {
+        "charge": 55,
+        "hold": 141,
+        "discharge_soft": 23,
+        "discharge_hard": 21
+      },
+      "latency": {
+        "median": 48.19119841698557,
+        "p95": 86.26289837504737,
+        "max": 94.65633091703057,
+        "mean": 49.53006293631624,
+        "n": 210
+      },
+      "top_disagreements": [
+        [
+          "hold->discharge_soft",
+          16
+        ],
+        [
+          "hold->charge",
+          15
+        ],
+        [
+          "discharge_soft->hold",
+          11
+        ],
+        [
+          "hold->discharge_hard",
+          6
+        ],
+        [
+          "discharge_soft->discharge_hard",
+          5
+        ]
+      ],
+      "sample_reasons": [
+        "reason: current load is a peak compared to recent history. Action: discharge_hard",
+        "reason: Current load is a valley, battery is 50% full. Action: hold",
+        "reason: Valley with surplus, charge to store. Action: charge",
+        "reason: current load is moderate, discharge to flatten peak. Action: discharge_soft",
+        "reason: Current load lower than recent average, valley. Action: hold"
+      ],
+      "mode_pairs": [
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ]
+      ],
+      "override_rate": 0.281,
+      "overrides": 59,
+      "clamped": 0,
+      "sample_override_reasons": [
+        "reason: current load is a peak compared to recent history. Action: discharge_hard",
+        "reason: current load is moderate, discharge to flatten peak. Action: discharge_soft",
+        "reason: current is peak, discharge_hard to flatten load. Action: discharge_hard",
+        "reason: Current load is moderate peak. Action: discharge_soft",
+        "reason: Current load is peak, but battery low. Action: discharge_soft"
+      ]
+    }
+  },
+  "L0_forecast": {
+    "arm": "L0",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "forecast": true,
+    "runtime_s": 6459.8,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 90.89775668686266,
+      "mean": 2.5836106021684064
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.9047592752020945,
+      "cost_total": 0.9020828742564693,
+      "daily_one_minus_load_factor_average": 0.9680234792502151,
+      "daily_peak_average": 1.449703449913538,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.9460442764392709,
+      "monthly_one_minus_load_factor_average": 0.9981808432124695,
+      "ramping_average": 0.9859629921862885,
+      "zero_net_energy": 0.9694502375132675
+    },
+    "end_soc": 0.21540755033493042,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      3.8761833906173706,
+      2.51035013794899,
+      4.927516877651215,
+      2.30528561770916,
+      -5.883566647768021,
+      -0.7323528081178665,
+      -1.8091595470905304,
+      -4.777399815618992,
+      -1.4396357238292694,
+      -1.655566781759262,
+      -1.8584781419485807,
+      -0.4873013775795698,
+      0.8862858340144157,
+      -0.7008498720824718,
+      2.5755302011966705,
+      7.217486381530762,
+      6.872950315475464,
+      6.737670225077871,
+      8.132954776287079,
+      4.546939201653004,
+      4.133087526075542,
+      3.119065876235254,
+      3.197232212216477,
+      2.8246475710038794,
+      3.075514553114772,
+      3.85996675491333,
+      1.6490167006850243,
+      1.2280333749949932,
+      -0.14278311282396317,
+      -1.6683498322963715,
+      -2.1232332214713097,
+      -1.1464332966133952,
+      -2.0663330256938934,
+      -1.0857966281473637,
+      1.1974810808897018,
+      2.285529464483261,
+      5.2142180278897285,
+      6.301831617951393,
+      6.756784921811025,
+      6.767626187801362,
+      4.266194779777528,
+      4.485964378251637
+    ],
+    "llm": {
+      "level": 0,
+      "calls": 210,
+      "timeouts": 0,
+      "parse_failures": 10,
+      "agreement": 0.9095,
+      "mean_deviation": 0.1476,
+      "compliance": 0.9839,
+      "modes": {
+        "charge": 62,
+        "hold": 121,
+        "discharge_soft": 31,
+        "discharge_hard": 26
+      },
+      "latency": {
+        "median": 28.10505074984394,
+        "p95": 58.55846770806238,
+        "max": 61.422603625105694,
+        "mean": 30.757205655956863,
+        "n": 210
+      },
+      "top_disagreements": [
+        [
+          "discharge_soft->charge",
+          4
+        ],
+        [
+          "hold->discharge_hard",
+          4
+        ],
+        [
+          "hold->charge",
+          3
+        ],
+        [
+          "discharge_hard->hold",
+          2
+        ],
+        [
+          "discharge_soft->hold",
+          2
+        ]
+      ],
+      "sample_reasons": [
+        "reason: solar is arriving soon, but net load is negative. Action: hold",
+        "reason: solar is arriving soon, avoid charging. Action: hold",
+        "reason: negative load, store free solar. Action: charge",
+        "reason: solar will arrive soon, no need to charge now. Action: hold",
+        "reason: solar is about to arrive, no need to charge now. Action: hold"
+      ],
+      "mode_pairs": [
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ]
+      ],
+      "override_rate": 0.0905,
+      "overrides": 19,
+      "clamped": 0,
+      "sample_override_reasons": [
+        "reason: price rises soon, discharge during spike. Action: discharge_hard",
+        "reason: solar fading, price rising soon. Action: discharge_soft",
+        "reason: price rises sharply soon: discharge during spike. Action: discharge_hard",
+        "reason: solar fading, load may climb soon. Action: discharge_soft",
+        "reason: price rises sharply soon, discharge during peak. Action: discharge_soft"
+      ]
+    }
+  },
+  "L0_forecast_desync": {
+    "arm": "L0",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "forecast": true,
+    "runtime_s": 6391.4,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 93.47083838708491,
+      "mean": 2.5737489897766803
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.972942082998714,
+      "cost_total": 0.9573638024282933,
+      "daily_one_minus_load_factor_average": 0.9505782765537442,
+      "daily_peak_average": 1.4134901776984263,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 1.0034350046379634,
+      "monthly_one_minus_load_factor_average": 0.9986369533264238,
+      "ramping_average": 1.0192913803952555,
+      "zero_net_energy": 1.006181154350648
+    },
+    "end_soc": 0.22662213444709778,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      3.8761833906173706,
+      2.51035013794899,
+      4.927516877651215,
+      0.5052856802940369,
+      0.36991265416145325,
+      -1.5082532316446304,
+      -5.731164887547493,
+      -6.4273999109864235,
+      -6.268066829070449,
+      -0.15556666254997253,
+      -1.2362696658819914,
+      0.04889998026192188,
+      1.7698101475834846,
+      2.5951726138591766,
+      4.219133645296097,
+      6.916900992393494,
+      6.849642217159271,
+      6.729397188872099,
+      7.2390672555193305,
+      4.643509726272896,
+      4.144327472240548,
+      3.1205226882020725,
+      3.197398881705567,
+      2.8246667487978954,
+      3.0755167435854673,
+      3.85996675491333,
+      0.14901672303676605,
+      2.1280333809554577,
+      -1.6427830904722214,
+      -1.6683496683835983,
+      -4.773233160376549,
+      -2.9461323050782084,
+      1.3440355211496353,
+      0.5441228449344635,
+      0.5409443080425262,
+      3.4063844680786133,
+      7.326148994266987,
+      5.202915903180838,
+      5.997524624989431,
+      6.862384221553803,
+      4.013007719421388,
+      4.320269664659108
+    ],
+    "llm": {
+      "level": 0,
+      "calls": 210,
+      "timeouts": 0,
+      "parse_failures": 14,
+      "agreement": 0.8619,
+      "mean_deviation": 0.2048,
+      "compliance": 0.9643,
+      "modes": {
+        "charge": 56,
+        "hold": 126,
+        "discharge_soft": 27,
+        "discharge_hard": 31
+      },
+      "latency": {
+        "median": 27.42730037495494,
+        "p95": 52.675097834086046,
+        "max": 71.98171049985103,
+        "mean": 30.431586749575633,
+        "n": 210
+      },
+      "top_disagreements": [
+        [
+          "hold->discharge_soft",
+          7
+        ],
+        [
+          "hold->charge",
+          7
+        ],
+        [
+          "discharge_hard->charge",
+          5
+        ],
+        [
+          "discharge_soft->hold",
+          4
+        ],
+        [
+          "discharge_soft->charge",
+          3
+        ]
+      ],
+      "sample_reasons": [
+        "",
+        "reason: solar is arriving soon, don't charge now. Action: hold",
+        "reason: Solar will surge soon, but current net load is negative. Action: charge",
+        "reason: solar will arrive soon, avoid charging now. Action: hold",
+        "reason: solar will arrive soon, avoid charging now. Action: hold"
+      ],
+      "mode_pairs": [
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ]
+      ],
+      "override_rate": 0.1381,
+      "overrides": 29,
+      "clamped": 0,
+      "sample_override_reasons": [
+        "reason: solar fading, avoid peak later. Action: discharge_soft",
+        "reason: solar fading, load will climb. Action: discharge_soft",
+        "reason: solar fading, load may climb soon. Action: discharge_soft",
+        "reason: solar is fading and load will climb. Action: discharge_hard",
+        "reason: solar is fading, load will climb. Action: discharge_hard"
+      ]
+    }
+  },
+  "L0_forecast_desync_v2": {
+    "arm": "L0",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "forecast": true,
+    "runtime_s": 6063.0,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 76.93691280904238,
+      "mean": 2.5642803851805804
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.9154112795677818,
+      "cost_total": 0.9234074704142012,
+      "daily_one_minus_load_factor_average": 0.9444685938786725,
+      "daily_peak_average": 1.4026091416068978,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.95296095154347,
+      "monthly_one_minus_load_factor_average": 0.9990748864097538,
+      "ramping_average": 0.7879922777947317,
+      "zero_net_energy": 0.9717134154939148
+    },
+    "end_soc": 0.1963036000728607,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      3.8761833906173706,
+      2.51035013794899,
+      2.4275169372558594,
+      -1.254785805940628,
+      0.36991265416145325,
+      -1.3347108513116837,
+      -2.350583627820015,
+      -2.1273998394608498,
+      -1.4396357238292694,
+      -4.192589819896966,
+      -3.7939325124025345,
+      -0.7010998893529177,
+      -0.07951623946428299,
+      2.8491500318050385,
+      3.7864259779453278,
+      8.094582676887512,
+      6.568784694617484,
+      6.707778438925743,
+      7.083727299235761,
+      4.625831644310551,
+      4.145891676932571,
+      3.119153122534044,
+      3.1974001036008204,
+      2.8245088411931647,
+      3.0755167435854673,
+      3.85996675491333,
+      1.6490167006850243,
+      1.2280333749949932,
+      -0.14278311282396317,
+      -0.9183497279882431,
+      -2.1232332214713097,
+      -1.1464332966133952,
+      -2.522988334298134,
+      -1.0858146846294403,
+      0.447478711605072,
+      3.1855290830135345,
+      5.007487781345844,
+      5.742417111992836,
+      6.251160150692861,
+      6.869892261028291,
+      4.009477574729921,
+      4.1469405497451675
+    ],
+    "llm": {
+      "level": 0,
+      "calls": 210,
+      "timeouts": 0,
+      "parse_failures": 18,
+      "agreement": 0.881,
+      "mean_deviation": 0.1857,
+      "compliance": 0.9831,
+      "modes": {
+        "charge": 59,
+        "hold": 128,
+        "discharge_soft": 24,
+        "discharge_hard": 29
+      },
+      "latency": {
+        "median": 27.57904408313334,
+        "p95": 48.20002887491137,
+        "max": 49.352362542180344,
+        "mean": 28.868546076363973,
+        "n": 210
+      },
+      "top_disagreements": [
+        [
+          "hold->discharge_soft",
+          10
+        ],
+        [
+          "discharge_soft->charge",
+          6
+        ],
+        [
+          "discharge_hard->charge",
+          3
+        ],
+        [
+          "discharge_soft->hold",
+          2
+        ],
+        [
+          "hold->charge",
+          2
+        ]
+      ],
+      "sample_reasons": [
+        "reason: Solar is arriving, but price is low now. Action: hold",
+        "reason: no overriding reason detected. Action: hold",
+        "reason: Solar will surge soon, but net load is negative. Action: charge",
+        "reason: solar will arrive soon, avoid charging now. Action: hold",
+        "reason: solar will arrive soon, no need to discharge now. Action: hold"
+      ],
+      "mode_pairs": [
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ]
+      ],
+      "override_rate": 0.119,
+      "overrides": 25,
+      "clamped": 0,
+      "sample_override_reasons": [
+        "reason: Solar fading, price rising soon. Action: discharge_hard",
+        "reason: solar fading, load will climb. Action: discharge_soft",
+        "reason: solar fading, avoid grid use during low irradiance. Action: discharge_soft",
+        "reason: Solar fading, load will climb. Action: discharge_soft",
+        "reason: Solar fades soon, load will climb. Action: discharge_soft"
+      ]
+    }
+  },
+  "L2_fixed": {
+    "arm": "L2",
+    "hours": 48,
+    "district": true,
+    "mock": false,
+    "forecast": false,
+    "runtime_s": 7919.1,
+    "raw": {
+      "peak": 24.165400331115706,
+      "ramping": 82.8124644193947,
+      "mean": 2.508351731055804
+    },
+    "kpi": {
+      "all_time_peak_average": 0.9999999533372317,
+      "annual_normalized_unserved_energy_total": 0.0,
+      "carbon_emissions_total": 0.8869517380398584,
+      "cost_total": 0.8841333616664941,
+      "daily_one_minus_load_factor_average": 0.9832693899490089,
+      "daily_peak_average": 1.4596482178230727,
+      "discomfort_cold_delta_average": 0.0,
+      "discomfort_cold_delta_maximum": 0.0,
+      "discomfort_cold_delta_minimum": 0.0,
+      "discomfort_hot_delta_average": 0.0,
+      "discomfort_hot_delta_maximum": 0.0,
+      "discomfort_hot_delta_minimum": 0.0,
+      "electricity_consumption_total": 0.9221555215308849,
+      "monthly_one_minus_load_factor_average": 1.001661646443799,
+      "ramping_average": 0.8774185615269346,
+      "zero_net_energy": 0.9779520106252653
+    },
+    "end_soc": 0.16176108717918397,
+    "net_series": [
+      24.165400331115706,
+      4.665883344936368,
+      2.9147168214162207,
+      2.3755667322635645,
+      2.979900163682302,
+      3.5377333562533053,
+      3.8761833906173706,
+      2.51035013794899,
+      4.927516877651215,
+      2.30528561770916,
+      0.1664334237575531,
+      -1.5709091573953629,
+      -2.9505837708711624,
+      -3.4301315918564796,
+      -2.3729006946086884,
+      -1.655566692352295,
+      -2.6439325362443924,
+      -1.4510998893529177,
+      -0.8303440883755684,
+      -0.8508498705923557,
+      2.9511238634586334,
+      8.332233548164368,
+      4.673762083053589,
+      5.916500252658132,
+      8.354517086442314,
+      4.433352947235107,
+      4.145891676932571,
+      3.1205334468404473,
+      3.1974001036008204,
+      2.8246667487978954,
+      3.049031388014555,
+      2.3599667698144913,
+      0.8990167081356049,
+      0.1001417338848114,
+      -0.8927832469344139,
+      -1.6683498322963715,
+      -3.623233124613762,
+      -1.8964332966133952,
+      -1.1663328856229782,
+      -0.8841147166676819,
+      1.8976131230592728,
+      3.1586343869566917,
+      5.533700056374073,
+      7.116433616727591,
+      6.281504636929434,
+      5.25416008971532,
+      5.532443959617616,
+      4.73085006131133
+    ],
+    "llm": {
+      "level": 2,
+      "calls": 210,
+      "timeouts": 0,
+      "parse_failures": 9,
+      "agreement": 0.6857,
+      "mean_deviation": 0.381,
+      "compliance": 0.9778,
+      "modes": {
+        "charge": 45,
+        "hold": 159,
+        "discharge_soft": 19,
+        "discharge_hard": 17
+      },
+      "latency": {
+        "median": 35.18377958307974,
+        "p95": 67.34445449989289,
+        "max": 81.30044087511487,
+        "mean": 37.70338353475201,
+        "n": 210
+      },
+      "top_disagreements": [
+        [
+          "hold->charge",
+          25
+        ],
+        [
+          "hold->discharge_soft",
+          13
+        ],
+        [
+          "hold->discharge_hard",
+          12
+        ],
+        [
+          "discharge_soft->hold",
+          5
+        ],
+        [
+          "discharge_soft->discharge_hard",
+          4
+        ]
+      ],
+      "sample_reasons": [
+        "reason: Current load below typical, battery not full. Action: hold",
+        "reason: Battery is 50% full, current load is below typical. Action: hold",
+        "reason: Charge during surplus to store energy. Action: charge",
+        "reason: Current load below typical, battery has reserve. Action: hold",
+        "reason: Hold to reserve for evening peak. Action: hold"
+      ],
+      "mode_pairs": [
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "discharge_soft"
+        ],
+        [
+          "charge",
+          "charge"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_soft",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "charge"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "discharge_hard",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "discharge_hard",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "discharge_soft",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "discharge_soft"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "hold"
+        ],
+        [
+          "hold",
+          "discharge_hard"
+        ],
+        [
+          "hold",
+          "hold"
+        ]
+      ],
+      "override_rate": 0.3143,
+      "overrides": 66,
+      "clamped": 0,
+      "sample_override_reasons": [
+        "reason: Battery full, hold to reserve for evening peak. Action: hold",
+        "reason: Battery full, avoid over-discharge during valley. Action: hold",
+        "reason: Battery full, reserve for evening peak. Action: hold",
+        "reason: Battery full, hold to reserve for evening peak. Action: hold",
+        "reason: Battery full, avoid overcharging. Action: hold"
+      ]
+    }
+  }
+}
