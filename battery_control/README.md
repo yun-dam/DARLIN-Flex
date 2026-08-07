@@ -121,6 +121,7 @@ Constraints enforced in the executor are structurally unviolatable.
 | `llm_controller.py` | LLM brain: 4 guidance levels, district context, forecast block, diagnostics |
 | `run_ladder.py` | runs one arm at a time, appends to `results_ladder.json` |
 | `run_fullyear_rbc.py` | full-year RBC vs do-nothing (no LLM calls, ~2 min) |
+| `run_transfer.py` | full-year RBC v5 across 3 CityLearn phases, gated on reproducing `run_fullyear_rbc.py`'s phase_1 result — see Transfer evaluation below |
 | `run_sac.py` | CityLearn's built-in SAC baseline |
 | `run_compare.py` | fair 3-way do-nothing vs RBC v5 vs LLM comparison with latency/agreement diagnostics |
 | `run_validation.py` | 10-scenario validation gate: parseability, valid mode, SOC guard, direction, per Ollama model |
@@ -128,6 +129,7 @@ Constraints enforced in the executor are structurally unviolatable.
 | `plot_results.py` | district net-load figure from saved `net_series` |
 | `results_ladder.json` | created by your own runs — starts empty, not shipped |
 | `results_ladder_reference.json` | the author's original results, shipped for comparison; not appended to by your runs |
+| `results_transfer.json` | `run_transfer.py` output: per-phase KPIs, mode counts, and the phase_1 gate result |
 | `archive/` | superseded pre-v5 controllers and one-off probe scripts, kept for reference |
 
 ---
@@ -283,6 +285,48 @@ do-nothing on 5. Expected at that training budget.
 
 ---
 
+## Transfer evaluation (full year, RBC v5, 3 CityLearn Challenge 2022 phases)
+
+Every result above is on `citylearn_challenge_2022_phase_1` — the same five buildings
+the RBC's thresholds were hand-tuned against. `run_transfer.py` re-runs the identical
+controller, identical parameters, on buildings it has never seen.
+
+| schema | buildings | C (cost) | G (carbon) | D (grid) |
+|---|---|---|---|---|
+| phase_1 (tuned on) | 5 | 0.807 | 0.878 | 0.874 |
+| phase_2 | 5 | 0.801 | 0.856 | 0.887 |
+| phase_3 | 7 | 0.897 | 0.921 | 0.887 |
+| 2022 participant median | — | 0.792 | 0.940 | 0.996 |
+
+`phase_1` here is the control condition, not a result: it reproduces
+`run_fullyear_rbc.py`'s number **exactly** — all three KPIs (C/G/D) and all four mode
+counts across the full 43,795 decisions (`charge: 11964, hold: 14310,
+discharge_soft: 12147, discharge_hard: 5374`), computed through a completely
+independent code path (`run_transfer.py` imports `RBCv5` from `rbc_v5.py` but reads
+the environment itself differently). That exact match is the evidence this comparison
+is trustworthy, not just the KPI table.
+
+**Read it split, not as one number:** the grid indicator D — ramping and load-factor,
+i.e. load shaping — is flat across all three schemas (0.874 / 0.887 / 0.887). Cost and
+carbon hold on phase_2 but degrade on phase_3 (C 0.807→0.897, G 0.878→0.921).
+**Load-shaping transfers to unseen buildings; energy arbitrage does not.**
+
+### Caveats
+
+- **Only two unseen schemas.** This is n=2, not a distribution — "holds on phase_2,
+  degrades on phase_3" is two data points, not a trend.
+- **phase_2 vs phase_3 confounds building count with building identity.** phase_2 has
+  5 buildings like phase_1; phase_3 has 7. The phase_3 degradation could come from
+  building-identity effects, building-count effects, or both — this comparison alone
+  cannot separate them.
+- **phase_1 is the only schema the thresholds were fitted to.** `hi_k`, `mid_k`,
+  `lo_k`, and the rate parameters were hand-tuned by looking at phase_1 behavior.
+  Nothing here was retuned for phase_2/phase_3 (that would defeat the point of a
+  transfer test), but it also means phase_1's own number is a training-set score,
+  not an unbiased estimate of anything.
+
+---
+
 ## Reproducibility
 
 qwen3 at temperature 0 is **deterministic**. Three of four identical L3 runs were
@@ -297,12 +341,24 @@ Runs sleep-interrupted by the host produce phantom timeouts. Use `caffeinate` (m
 ## Known limitations
 
 - Single run per configuration (except L3, ×4). Deterministic, but not statistically powered.
-- One dataset (`citylearn_challenge_2022_phase_1`). Transfer untested.
+- LLM guidance-ladder results (L0–L3) are `phase_1` only. RBC v5 has been evaluated
+  across three CityLearn Challenge 2022 phases (see Transfer evaluation above); the LLM
+  controller has not.
 - 48 h windows; `daily_peak_average` and `zero_net_energy` are not valid at this horizon.
 - Five LLM calls per hour makes full-year evaluation infeasible — call-cadence strategy is
   the open engineering problem.
 - Each building's LLM call sees only its own state plus limited district aggregates.
   This is parallel single-agent control, **not** coordinated multi-agent control.
+- CityLearn building attribute arrays (`net_electricity_consumption_*`,
+  `solar_generation`) are finalized **lazily during `step()`** — the newest entry at
+  read time is an unfinalized placeholder, valid only after the *next* `step()` call.
+  Read current-step load and solar from the **observation vector**
+  (`env.observation_names` → a name→index map built fresh per schema, since the layout
+  changes with building count — see `build_index()` in `run_fullyear_rbc.py` /
+  `run_transfer.py`) instead of these arrays. `true_soc()` is the one deliberate
+  exception: `electrical_storage_soc` is broken in the observation vector itself (see
+  above), so reading the battery object directly is unavoidable there — the fix is a
+  *lagged* index into that array (`t_step - 1`), not a switch to the observation.
 
 ---
 
