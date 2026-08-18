@@ -122,6 +122,8 @@ Constraints enforced in the executor are structurally unviolatable.
 | `run_ladder.py` | runs one arm at a time, appends to `results_ladder.json` |
 | `run_fullyear_rbc.py` | full-year RBC vs do-nothing (no LLM calls, ~2 min) |
 | `run_transfer.py` | full-year RBC v5 across 3 CityLearn phases, gated on reproducing `run_fullyear_rbc.py`'s phase_1 result — see Transfer evaluation below |
+| `job6_rate_sweep.py` | RBC v5 rate-multiplier sweep (k=0.4-1.2), gated on k=1.0 — see Rate sweep above |
+| `job7_rate_sweep_extension.py` | extends the sweep down to k=0.10 to bracket L3's ramping point |
 | `run_sac.py` | CityLearn's built-in SAC baseline |
 | `run_compare.py` | fair 3-way do-nothing vs RBC v5 vs LLM comparison with latency/agreement diagnostics |
 | `run_validation.py` | 10-scenario validation gate: parseability, valid mode, SOC guard, direction, per Ollama model |
@@ -130,6 +132,7 @@ Constraints enforced in the executor are structurally unviolatable.
 | `results_ladder.json` | created by your own runs — starts empty, not shipped |
 | `results_ladder_reference.json` | the author's original results, shipped for comparison; not appended to by your runs |
 | `results_transfer.json` | `run_transfer.py` output: per-phase KPIs, mode counts, and the phase_1 gate result |
+| `results_rate_sweep.json`, `results_rate_sweep_extension.json` | `job6`/`job7` output: per-k KPIs, gate result, L3 bracket analysis |
 | `archive/` | superseded pre-v5 controllers and one-off probe scripts, kept for reference |
 
 ---
@@ -282,6 +285,44 @@ carbon −12.2%. Ties on all-time peak; worse on zero-net-energy (round-trip los
 
 **SAC (5 episodes, 721 s training):** loses to RBC v5 on all 8 KPIs and underperforms
 do-nothing on 5. Expected at that training budget.
+
+---
+
+## Rate sweep: is L3's edge a strategy, or a hyperparameter the rule already has?
+
+L3's phase_1 advantage over RBC v5 (cost 0.825 vs 0.878, carbon 0.839 vs 0.881, at the
+cost of worse ramping: 0.881 vs 0.755) comes from acting less — fewer, smaller
+charge/discharge decisions than the rule's fixed rates produce. Less cycling means less
+round-trip loss. That's a rate parameter, not a strategy — so before crediting L3 with
+anything, the question is whether RBC v5 already has access to the same tradeoff by
+turning one knob.
+
+**Method:** a global multiplier `k` applied jointly to `charge_rate`, `discharge_soft_rate`,
+and `discharge_hard_rate` (nothing else changed — same thresholds, warmup, executor,
+solar-only-charge rule). `k` swept across 14 values (0.10 through 1.2) on phase_1, at both
+the 48 h ladder window and the full year, gated on `k=1.0` reproducing the known phase_1
+reference at both windows before anything else was trusted.
+
+**Result 1 — the baseline was not mis-tuned.** `k=1.0` (the shipped default) is the
+full-year cost minimum across all 14 settings tested: cost_total 0.8075, versus the
+nearest competitor (k=0.9) at 0.8076. No rate multiplier beats the default on cost at
+full year.
+
+**Result 2 — L3 sits outside the rule's achievable set at matched ramping.** At L3's
+exact 48 h ramping value (0.8810), the rate sweep brackets it directly — k=0.25
+(ramping 0.8613) below, k=0.20 (ramping 0.8860) above, a real bracket, not an
+extrapolation. The interpolated rule cost at that ramping is **0.9134**. L3's actual
+cost is **0.8250** — 0.088 lower than anything a rate-only retuning of the rule reaches
+at the same ramping level.
+
+**Both of the following are true, together — neither stands alone:**
+- This is a **phase_1 in-sample result**. The rate sweep and the bracket above were
+  computed entirely on the schema RBC v5's thresholds were tuned against.
+- **L3's cost advantage over RBC v5 inverts on phase_2.** phase_1: L3 beats RBC v5 by
+  0.053 on cost (0.825 vs 0.878). phase_2, same 48 h window, RBC v5 run fresh as an
+  in-window comparator: L3 **trails** RBC v5 by 0.009 on cost (0.895 vs 0.886). The
+  edge that survives the rate-sweep bracket on phase_1 does not survive a change of
+  building.
 
 ---
 

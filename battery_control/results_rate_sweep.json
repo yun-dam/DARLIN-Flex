@@ -1,0 +1,1112 @@
+{
+  "phase_1": {
+    "48h": [
+      {
+        "schema": "phase_1",
+        "k": 0.4,
+        "window": "48h",
+        "steps": 48,
+        "cost_total": 0.9103058741663996,
+        "carbon_emissions_total": 0.9001868970500845,
+        "ramping_average": 0.8085589733507259,
+        "C": 0.9103058741663996,
+        "G": 0.9001868970500845,
+        "D": 0.9063521944674469,
+        "mode_counts": {
+          "charge": 69,
+          "hold": 117,
+          "discharge_soft": 27,
+          "discharge_hard": 27
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 0.5,
+        "window": "48h",
+        "steps": 48,
+        "cost_total": 0.8974900482695253,
+        "carbon_emissions_total": 0.8889743672991497,
+        "ramping_average": 0.7909471652597826,
+        "C": 0.8974900482695253,
+        "G": 0.8889743672991497,
+        "D": 0.8972026443600438,
+        "mode_counts": {
+          "charge": 69,
+          "hold": 117,
+          "discharge_soft": 27,
+          "discharge_hard": 27
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 0.6,
+        "window": "48h",
+        "steps": 48,
+        "cost_total": 0.8881030754322244,
+        "carbon_emissions_total": 0.8802164409566443,
+        "ramping_average": 0.7435885847990263,
+        "C": 0.8881030754322244,
+        "G": 0.8802164409566443,
+        "D": 0.8731896031488897,
+        "mode_counts": {
+          "charge": 69,
+          "hold": 117,
+          "discharge_soft": 27,
+          "discharge_hard": 27
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 0.7,
+        "window": "48h",
+        "steps": 48,
+        "cost_total": 0.8796340237307082,
+        "carbon_emissions_total": 0.8739060005835436,
+        "ramping_average": 0.7422412214115429,
+        "C": 0.8796340237307082,
+        "G": 0.8739060005835436,
+        "D": 0.8721567025634027,
+        "mode_counts": {
+          "charge": 69,
+          "hold": 117,
+          "discharge_soft": 27,
+          "discharge_hard": 27
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 0.8,
+        "window": "48h",
+        "steps": 48,
+        "cost_total": 0.8744746207719787,
+        "carbon_emissions_total": 0.8720025133416658,
+        "ramping_average": 0.7415833589506999,
+        "C": 0.8744746207719787,
+        "G": 0.8720025133416658,
+        "D": 0.8714898833054661,
+        "mode_counts": {
+          "charge": 69,
+          "hold": 117,
+          "discharge_soft": 27,
+          "discharge_hard": 27
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 0.9,
+        "window": "48h",
+        "steps": 48,
+        "cost_total": 0.8722852899620842,
+        "carbon_emissions_total": 0.8737811053370376,
+        "ramping_average": 0.7426467873392221,
+        "C": 0.8722852899620842,
+        "G": 0.8737811053370376,
+        "D": 0.8717178588035319,
+        "mode_counts": {
+          "charge": 69,
+          "hold": 117,
+          "discharge_soft": 27,
+          "discharge_hard": 27
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 1.0,
+        "window": "48h",
+        "steps": 48,
+        "cost_total": 0.877974692427463,
+        "carbon_emissions_total": 0.880955924093755,
+        "ramping_average": 0.7549150832694994,
+        "C": 0.877974692427463,
+        "G": 0.880955924093755,
+        "D": 0.8776020594498519,
+        "mode_counts": {
+          "charge": 69,
+          "hold": 117,
+          "discharge_soft": 27,
+          "discharge_hard": 27
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 1.2,
+        "window": "48h",
+        "steps": 48,
+        "cost_total": 0.9017031404234606,
+        "carbon_emissions_total": 0.9079955393562751,
+        "ramping_average": 0.7845629078836769,
+        "C": 0.9017031404234606,
+        "G": 0.9079955393562751,
+        "D": 0.8920093689496795,
+        "mode_counts": {
+          "charge": 69,
+          "hold": 117,
+          "discharge_soft": 27,
+          "discharge_hard": 27
+        }
+      }
+    ],
+    "year": [
+      {
+        "schema": "phase_1",
+        "k": 0.4,
+        "window": "year",
+        "steps": 8759,
+        "cost_total": 0.8823751324543468,
+        "carbon_emissions_total": 0.9135080910576849,
+        "ramping_average": 0.870788583771627,
+        "C": 0.8823751324543468,
+        "G": 0.9135080910576849,
+        "D": 0.9262128279338537,
+        "mode_counts": {
+          "charge": 11964,
+          "hold": 14310,
+          "discharge_soft": 12147,
+          "discharge_hard": 5374
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 0.5,
+        "window": "year",
+        "steps": 8759,
+        "cost_total": 0.8595083783586568,
+        "carbon_emissions_total": 0.898059053037038,
+        "ramping_average": 0.8444771163128661,
+        "C": 0.8595083783586568,
+        "G": 0.898059053037038,
+        "D": 0.9113008005159655,
+        "mode_counts": {
+          "charge": 11964,
+          "hold": 14310,
+          "discharge_soft": 12147,
+          "discharge_hard": 5374
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 0.6,
+        "window": "year",
+        "steps": 8759,
+        "cost_total": 0.8404437777528302,
+        "carbon_emissions_total": 0.8858059555907306,
+        "ramping_average": 0.8223549351848771,
+        "C": 0.8404437777528302,
+        "G": 0.8858059555907306,
+        "D": 0.8986424156331693,
+        "mode_counts": {
+          "charge": 11964,
+          "hold": 14310,
+          "discharge_soft": 12147,
+          "discharge_hard": 5374
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 0.7,
+        "window": "year",
+        "steps": 8759,
+        "cost_total": 0.8250897258385459,
+        "carbon_emissions_total": 0.8768977308211736,
+        "ramping_average": 0.8062035042444007,
+        "C": 0.8250897258385459,
+        "G": 0.8768977308211736,
+        "D": 0.8894486382269098,
+        "mode_counts": {
+          "charge": 11964,
+          "hold": 14310,
+          "discharge_soft": 12147,
+          "discharge_hard": 5374
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 0.8,
+        "window": "year",
+        "steps": 8759,
+        "cost_total": 0.8134463750506068,
+        "carbon_emissions_total": 0.8719084918155693,
+        "ramping_average": 0.7943575933467618,
+        "C": 0.8134463750506068,
+        "G": 0.8719084918155693,
+        "D": 0.8826030892835864,
+        "mode_counts": {
+          "charge": 11964,
+          "hold": 14310,
+          "discharge_soft": 12147,
+          "discharge_hard": 5374
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 0.9,
+        "window": "year",
+        "steps": 8759,
+        "cost_total": 0.8076007048597693,
+        "carbon_emissions_total": 0.8722094615839863,
+        "ramping_average": 0.7830454030908066,
+        "C": 0.8076007048597693,
+        "G": 0.8722094615839863,
+        "D": 0.8762284503540344,
+        "mode_counts": {
+          "charge": 11964,
+          "hold": 14310,
+          "discharge_soft": 12147,
+          "discharge_hard": 5374
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 1.0,
+        "window": "year",
+        "steps": 8759,
+        "cost_total": 0.8074704385275135,
+        "carbon_emissions_total": 0.8776921602093145,
+        "ramping_average": 0.7802323677582925,
+        "C": 0.8074704385275135,
+        "G": 0.8776921602093145,
+        "D": 0.874366009064895,
+        "mode_counts": {
+          "charge": 11964,
+          "hold": 14310,
+          "discharge_soft": 12147,
+          "discharge_hard": 5374
+        }
+      },
+      {
+        "schema": "phase_1",
+        "k": 1.2,
+        "window": "year",
+        "steps": 8759,
+        "cost_total": 0.819074623354988,
+        "carbon_emissions_total": 0.8967290337092554,
+        "ramping_average": 0.8002549436183225,
+        "C": 0.819074623354988,
+        "G": 0.8967290337092554,
+        "D": 0.8840849337867429,
+        "mode_counts": {
+          "charge": 11964,
+          "hold": 14310,
+          "discharge_soft": 12147,
+          "discharge_hard": 5374
+        }
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "problems": []
+  },
+  "l3_frontier_analysis": {
+    "l3_point": {
+      "cost": 0.825,
+      "carbon": 0.839,
+      "ramping": 0.881
+    },
+    "nearest_k_by_ramping": {
+      "schema": "phase_1",
+      "k": 0.4,
+      "window": "48h",
+      "steps": 48,
+      "cost_total": 0.9103058741663996,
+      "carbon_emissions_total": 0.9001868970500845,
+      "ramping_average": 0.8085589733507259,
+      "C": 0.9103058741663996,
+      "G": 0.9001868970500845,
+      "D": 0.9063521944674469,
+      "mode_counts": {
+        "charge": 69,
+        "hold": 117,
+        "discharge_soft": 27,
+        "discharge_hard": 27
+      }
+    },
+    "interpolated_cost_at_l3_ramping": null,
+    "interpolation_bracket": null,
+    "dominating_k_values": [],
+    "classification": "OUTSIDE"
+  },
+  "critical_guard": {
+    "flagged": [
+      {
+        "window": "48h",
+        "k": 0.6,
+        "metric": "carbon_emissions_total",
+        "k_value": 0.8802164409566443,
+        "k1_value": 0.880955924093755
+      },
+      {
+        "window": "48h",
+        "k": 0.6,
+        "metric": "ramping_average",
+        "k_value": 0.7435885847990263,
+        "k1_value": 0.7549150832694994
+      },
+      {
+        "window": "48h",
+        "k": 0.6,
+        "metric": "D",
+        "k_value": 0.8731896031488897,
+        "k1_value": 0.8776020594498519
+      },
+      {
+        "window": "48h",
+        "k": 0.7,
+        "metric": "carbon_emissions_total",
+        "k_value": 0.8739060005835436,
+        "k1_value": 0.880955924093755
+      },
+      {
+        "window": "48h",
+        "k": 0.7,
+        "metric": "ramping_average",
+        "k_value": 0.7422412214115429,
+        "k1_value": 0.7549150832694994
+      },
+      {
+        "window": "48h",
+        "k": 0.7,
+        "metric": "D",
+        "k_value": 0.8721567025634027,
+        "k1_value": 0.8776020594498519
+      },
+      {
+        "window": "48h",
+        "k": 0.8,
+        "metric": "cost_total",
+        "k_value": 0.8744746207719787,
+        "k1_value": 0.877974692427463
+      },
+      {
+        "window": "48h",
+        "k": 0.8,
+        "metric": "carbon_emissions_total",
+        "k_value": 0.8720025133416658,
+        "k1_value": 0.880955924093755
+      },
+      {
+        "window": "48h",
+        "k": 0.8,
+        "metric": "ramping_average",
+        "k_value": 0.7415833589506999,
+        "k1_value": 0.7549150832694994
+      },
+      {
+        "window": "48h",
+        "k": 0.8,
+        "metric": "D",
+        "k_value": 0.8714898833054661,
+        "k1_value": 0.8776020594498519
+      },
+      {
+        "window": "48h",
+        "k": 0.9,
+        "metric": "cost_total",
+        "k_value": 0.8722852899620842,
+        "k1_value": 0.877974692427463
+      },
+      {
+        "window": "48h",
+        "k": 0.9,
+        "metric": "carbon_emissions_total",
+        "k_value": 0.8737811053370376,
+        "k1_value": 0.880955924093755
+      },
+      {
+        "window": "48h",
+        "k": 0.9,
+        "metric": "ramping_average",
+        "k_value": 0.7426467873392221,
+        "k1_value": 0.7549150832694994
+      },
+      {
+        "window": "48h",
+        "k": 0.9,
+        "metric": "D",
+        "k_value": 0.8717178588035319,
+        "k1_value": 0.8776020594498519
+      },
+      {
+        "window": "year",
+        "k": 0.7,
+        "metric": "carbon_emissions_total",
+        "k_value": 0.8768977308211736,
+        "k1_value": 0.8776921602093145
+      },
+      {
+        "window": "year",
+        "k": 0.8,
+        "metric": "carbon_emissions_total",
+        "k_value": 0.8719084918155693,
+        "k1_value": 0.8776921602093145
+      },
+      {
+        "window": "year",
+        "k": 0.9,
+        "metric": "carbon_emissions_total",
+        "k_value": 0.8722094615839863,
+        "k1_value": 0.8776921602093145
+      }
+    ],
+    "out_of_sample_validation": [
+      {
+        "window": "48h",
+        "k": 0.6,
+        "schema": "phase_2",
+        "k_result": {
+          "schema": "phase_2",
+          "k": 0.6,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.8817249518020202,
+          "carbon_emissions_total": 0.8959303271730774,
+          "ramping_average": 0.9663613186273635,
+          "C": 0.8817249518020202,
+          "G": 0.8959303271730774,
+          "D": 0.9857307542046221,
+          "mode_counts": {
+            "charge": 37,
+            "hold": 124,
+            "discharge_soft": 29,
+            "discharge_hard": 50
+          }
+        },
+        "k1_result": {
+          "schema": "phase_2",
+          "k": 1.0,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.8861456131609954,
+          "carbon_emissions_total": 0.9129283133743947,
+          "ramping_average": 0.9814556978739405,
+          "C": 0.8861456131609954,
+          "G": 0.9129283133743947,
+          "D": 0.9905960405632532,
+          "mode_counts": {
+            "charge": 37,
+            "hold": 124,
+            "discharge_soft": 29,
+            "discharge_hard": 50
+          }
+        },
+        "beats_k1": {
+          "cost_total": true,
+          "carbon_emissions_total": true,
+          "ramping_average": true,
+          "D": true
+        }
+      },
+      {
+        "window": "48h",
+        "k": 0.6,
+        "schema": "phase_3",
+        "k_result": {
+          "schema": "phase_3",
+          "k": 0.6,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.8977121721393531,
+          "carbon_emissions_total": 0.9019363630896325,
+          "ramping_average": 0.8013409682941127,
+          "C": 0.8977121721393531,
+          "G": 0.9019363630896325,
+          "D": 0.9026860731348652,
+          "mode_counts": {
+            "charge": 81,
+            "hold": 161,
+            "discharge_soft": 26,
+            "discharge_hard": 68
+          }
+        },
+        "k1_result": {
+          "schema": "phase_3",
+          "k": 1.0,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.9034771634192486,
+          "carbon_emissions_total": 0.9099473073875868,
+          "ramping_average": 0.8081096920405647,
+          "C": 0.9034771634192486,
+          "G": 0.9099473073875868,
+          "D": 0.9010588141179148,
+          "mode_counts": {
+            "charge": 81,
+            "hold": 161,
+            "discharge_soft": 26,
+            "discharge_hard": 68
+          }
+        },
+        "beats_k1": {
+          "cost_total": true,
+          "carbon_emissions_total": true,
+          "ramping_average": true,
+          "D": false
+        }
+      },
+      {
+        "window": "48h",
+        "k": 0.7,
+        "schema": "phase_2",
+        "k_result": {
+          "schema": "phase_2",
+          "k": 0.7,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.8808289523361251,
+          "carbon_emissions_total": 0.8981170864815211,
+          "ramping_average": 0.9617622368727194,
+          "C": 0.8808289523361251,
+          "G": 0.8981170864815211,
+          "D": 0.9826525540512383,
+          "mode_counts": {
+            "charge": 37,
+            "hold": 124,
+            "discharge_soft": 29,
+            "discharge_hard": 50
+          }
+        },
+        "k1_result": {
+          "schema": "phase_2",
+          "k": 1.0,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.8861456131609954,
+          "carbon_emissions_total": 0.9129283133743947,
+          "ramping_average": 0.9814556978739405,
+          "C": 0.8861456131609954,
+          "G": 0.9129283133743947,
+          "D": 0.9905960405632532,
+          "mode_counts": {
+            "charge": 37,
+            "hold": 124,
+            "discharge_soft": 29,
+            "discharge_hard": 50
+          }
+        },
+        "beats_k1": {
+          "cost_total": true,
+          "carbon_emissions_total": true,
+          "ramping_average": true,
+          "D": true
+        }
+      },
+      {
+        "window": "48h",
+        "k": 0.7,
+        "schema": "phase_3",
+        "k_result": {
+          "schema": "phase_3",
+          "k": 0.7,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.8950943369879659,
+          "carbon_emissions_total": 0.8996556277547892,
+          "ramping_average": 0.8023876364280628,
+          "C": 0.8950943369879659,
+          "G": 0.8996556277547892,
+          "D": 0.9018222067083976,
+          "mode_counts": {
+            "charge": 81,
+            "hold": 161,
+            "discharge_soft": 26,
+            "discharge_hard": 68
+          }
+        },
+        "k1_result": {
+          "schema": "phase_3",
+          "k": 1.0,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.9034771634192486,
+          "carbon_emissions_total": 0.9099473073875868,
+          "ramping_average": 0.8081096920405647,
+          "C": 0.9034771634192486,
+          "G": 0.9099473073875868,
+          "D": 0.9010588141179148,
+          "mode_counts": {
+            "charge": 81,
+            "hold": 161,
+            "discharge_soft": 26,
+            "discharge_hard": 68
+          }
+        },
+        "beats_k1": {
+          "cost_total": true,
+          "carbon_emissions_total": true,
+          "ramping_average": true,
+          "D": false
+        }
+      },
+      {
+        "window": "48h",
+        "k": 0.8,
+        "schema": "phase_2",
+        "k_result": {
+          "schema": "phase_2",
+          "k": 0.8,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.8817640296854431,
+          "carbon_emissions_total": 0.9017070256751684,
+          "ramping_average": 0.9673916915571493,
+          "C": 0.8817640296854431,
+          "G": 0.9017070256751684,
+          "D": 0.9847237888458804,
+          "mode_counts": {
+            "charge": 37,
+            "hold": 124,
+            "discharge_soft": 29,
+            "discharge_hard": 50
+          }
+        },
+        "k1_result": {
+          "schema": "phase_2",
+          "k": 1.0,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.8861456131609954,
+          "carbon_emissions_total": 0.9129283133743947,
+          "ramping_average": 0.9814556978739405,
+          "C": 0.8861456131609954,
+          "G": 0.9129283133743947,
+          "D": 0.9905960405632532,
+          "mode_counts": {
+            "charge": 37,
+            "hold": 124,
+            "discharge_soft": 29,
+            "discharge_hard": 50
+          }
+        },
+        "beats_k1": {
+          "cost_total": true,
+          "carbon_emissions_total": true,
+          "ramping_average": true,
+          "D": true
+        }
+      },
+      {
+        "window": "48h",
+        "k": 0.8,
+        "schema": "phase_3",
+        "k_result": {
+          "schema": "phase_3",
+          "k": 0.8,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.8957333356151417,
+          "carbon_emissions_total": 0.9008054259141368,
+          "ramping_average": 0.8013851881116965,
+          "C": 0.8957333356151417,
+          "G": 0.9008054259141368,
+          "D": 0.8999750793877617,
+          "mode_counts": {
+            "charge": 81,
+            "hold": 161,
+            "discharge_soft": 26,
+            "discharge_hard": 68
+          }
+        },
+        "k1_result": {
+          "schema": "phase_3",
+          "k": 1.0,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.9034771634192486,
+          "carbon_emissions_total": 0.9099473073875868,
+          "ramping_average": 0.8081096920405647,
+          "C": 0.9034771634192486,
+          "G": 0.9099473073875868,
+          "D": 0.9010588141179148,
+          "mode_counts": {
+            "charge": 81,
+            "hold": 161,
+            "discharge_soft": 26,
+            "discharge_hard": 68
+          }
+        },
+        "beats_k1": {
+          "cost_total": true,
+          "carbon_emissions_total": true,
+          "ramping_average": true,
+          "D": true
+        }
+      },
+      {
+        "window": "48h",
+        "k": 0.9,
+        "schema": "phase_2",
+        "k_result": {
+          "schema": "phase_2",
+          "k": 0.9,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.881790789337272,
+          "carbon_emissions_total": 0.9055629405194531,
+          "ramping_average": 0.972715429805281,
+          "C": 0.881790789337272,
+          "G": 0.9055629405194531,
+          "D": 0.9867342736687725,
+          "mode_counts": {
+            "charge": 37,
+            "hold": 124,
+            "discharge_soft": 29,
+            "discharge_hard": 50
+          }
+        },
+        "k1_result": {
+          "schema": "phase_2",
+          "k": 1.0,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.8861456131609954,
+          "carbon_emissions_total": 0.9129283133743947,
+          "ramping_average": 0.9814556978739405,
+          "C": 0.8861456131609954,
+          "G": 0.9129283133743947,
+          "D": 0.9905960405632532,
+          "mode_counts": {
+            "charge": 37,
+            "hold": 124,
+            "discharge_soft": 29,
+            "discharge_hard": 50
+          }
+        },
+        "beats_k1": {
+          "cost_total": true,
+          "carbon_emissions_total": true,
+          "ramping_average": true,
+          "D": true
+        }
+      },
+      {
+        "window": "48h",
+        "k": 0.9,
+        "schema": "phase_3",
+        "k_result": {
+          "schema": "phase_3",
+          "k": 0.9,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.898581663680787,
+          "carbon_emissions_total": 0.9045889842762694,
+          "ramping_average": 0.7929921638432892,
+          "C": 0.898581663680787,
+          "G": 0.9045889842762694,
+          "D": 0.8945508664326667,
+          "mode_counts": {
+            "charge": 81,
+            "hold": 161,
+            "discharge_soft": 26,
+            "discharge_hard": 68
+          }
+        },
+        "k1_result": {
+          "schema": "phase_3",
+          "k": 1.0,
+          "window": "48h",
+          "steps": 48,
+          "cost_total": 0.9034771634192486,
+          "carbon_emissions_total": 0.9099473073875868,
+          "ramping_average": 0.8081096920405647,
+          "C": 0.9034771634192486,
+          "G": 0.9099473073875868,
+          "D": 0.9010588141179148,
+          "mode_counts": {
+            "charge": 81,
+            "hold": 161,
+            "discharge_soft": 26,
+            "discharge_hard": 68
+          }
+        },
+        "beats_k1": {
+          "cost_total": true,
+          "carbon_emissions_total": true,
+          "ramping_average": true,
+          "D": true
+        }
+      },
+      {
+        "window": "year",
+        "k": 0.7,
+        "schema": "phase_2",
+        "k_result": {
+          "schema": "phase_2",
+          "k": 0.7,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.8278903134220154,
+          "carbon_emissions_total": 0.867881985550464,
+          "ramping_average": 0.8270068780637001,
+          "C": 0.8278903134220154,
+          "G": 0.867881985550464,
+          "D": 0.9058734693184018,
+          "mode_counts": {
+            "charge": 12363,
+            "hold": 13851,
+            "discharge_soft": 12239,
+            "discharge_hard": 5342
+          }
+        },
+        "k1_result": {
+          "schema": "phase_2",
+          "k": 1.0,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.8010169871585759,
+          "carbon_emissions_total": 0.8558172577669341,
+          "ramping_average": 0.7973682493860906,
+          "C": 0.8010169871585759,
+          "G": 0.8558172577669341,
+          "D": 0.887159421001432,
+          "mode_counts": {
+            "charge": 12363,
+            "hold": 13851,
+            "discharge_soft": 12239,
+            "discharge_hard": 5342
+          }
+        },
+        "beats_k1": {
+          "cost_total": false,
+          "carbon_emissions_total": false,
+          "ramping_average": false,
+          "D": false
+        }
+      },
+      {
+        "window": "year",
+        "k": 0.7,
+        "schema": "phase_3",
+        "k_result": {
+          "schema": "phase_3",
+          "k": 0.7,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.9087341839213547,
+          "carbon_emissions_total": 0.9264101302158081,
+          "ramping_average": 0.8296519844865388,
+          "C": 0.9087341839213547,
+          "G": 0.9264101302158081,
+          "D": 0.9003024264963999,
+          "mode_counts": {
+            "charge": 12638,
+            "hold": 26186,
+            "discharge_soft": 13742,
+            "discharge_hard": 8747
+          }
+        },
+        "k1_result": {
+          "schema": "phase_3",
+          "k": 1.0,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.8969519174878385,
+          "carbon_emissions_total": 0.9214406705125204,
+          "ramping_average": 0.8140356890166769,
+          "C": 0.8969519174878385,
+          "G": 0.9214406705125204,
+          "D": 0.887090479402121,
+          "mode_counts": {
+            "charge": 12638,
+            "hold": 26186,
+            "discharge_soft": 13742,
+            "discharge_hard": 8747
+          }
+        },
+        "beats_k1": {
+          "cost_total": false,
+          "carbon_emissions_total": false,
+          "ramping_average": false,
+          "D": false
+        }
+      },
+      {
+        "window": "year",
+        "k": 0.8,
+        "schema": "phase_2",
+        "k_result": {
+          "schema": "phase_2",
+          "k": 0.8,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.8141290016395105,
+          "carbon_emissions_total": 0.8594696384008109,
+          "ramping_average": 0.8129733657016861,
+          "C": 0.8141290016395105,
+          "G": 0.8594696384008109,
+          "D": 0.897306638604674,
+          "mode_counts": {
+            "charge": 12363,
+            "hold": 13851,
+            "discharge_soft": 12239,
+            "discharge_hard": 5342
+          }
+        },
+        "k1_result": {
+          "schema": "phase_2",
+          "k": 1.0,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.8010169871585759,
+          "carbon_emissions_total": 0.8558172577669341,
+          "ramping_average": 0.7973682493860906,
+          "C": 0.8010169871585759,
+          "G": 0.8558172577669341,
+          "D": 0.887159421001432,
+          "mode_counts": {
+            "charge": 12363,
+            "hold": 13851,
+            "discharge_soft": 12239,
+            "discharge_hard": 5342
+          }
+        },
+        "beats_k1": {
+          "cost_total": false,
+          "carbon_emissions_total": false,
+          "ramping_average": false,
+          "D": false
+        }
+      },
+      {
+        "window": "year",
+        "k": 0.8,
+        "schema": "phase_3",
+        "k_result": {
+          "schema": "phase_3",
+          "k": 0.8,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.902111257761901,
+          "carbon_emissions_total": 0.9221036008932845,
+          "ramping_average": 0.8181182504446219,
+          "C": 0.902111257761901,
+          "G": 0.9221036008932845,
+          "D": 0.8923314582958926,
+          "mode_counts": {
+            "charge": 12638,
+            "hold": 26186,
+            "discharge_soft": 13742,
+            "discharge_hard": 8747
+          }
+        },
+        "k1_result": {
+          "schema": "phase_3",
+          "k": 1.0,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.8969519174878385,
+          "carbon_emissions_total": 0.9214406705125204,
+          "ramping_average": 0.8140356890166769,
+          "C": 0.8969519174878385,
+          "G": 0.9214406705125204,
+          "D": 0.887090479402121,
+          "mode_counts": {
+            "charge": 12638,
+            "hold": 26186,
+            "discharge_soft": 13742,
+            "discharge_hard": 8747
+          }
+        },
+        "beats_k1": {
+          "cost_total": false,
+          "carbon_emissions_total": false,
+          "ramping_average": false,
+          "D": false
+        }
+      },
+      {
+        "window": "year",
+        "k": 0.9,
+        "schema": "phase_2",
+        "k_result": {
+          "schema": "phase_2",
+          "k": 0.9,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.8047671082418957,
+          "carbon_emissions_total": 0.8552588286223133,
+          "ramping_average": 0.8011587762037334,
+          "C": 0.8047671082418957,
+          "G": 0.8552588286223133,
+          "D": 0.8898692003025177,
+          "mode_counts": {
+            "charge": 12363,
+            "hold": 13851,
+            "discharge_soft": 12239,
+            "discharge_hard": 5342
+          }
+        },
+        "k1_result": {
+          "schema": "phase_2",
+          "k": 1.0,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.8010169871585759,
+          "carbon_emissions_total": 0.8558172577669341,
+          "ramping_average": 0.7973682493860906,
+          "C": 0.8010169871585759,
+          "G": 0.8558172577669341,
+          "D": 0.887159421001432,
+          "mode_counts": {
+            "charge": 12363,
+            "hold": 13851,
+            "discharge_soft": 12239,
+            "discharge_hard": 5342
+          }
+        },
+        "beats_k1": {
+          "cost_total": false,
+          "carbon_emissions_total": true,
+          "ramping_average": false,
+          "D": false
+        }
+      },
+      {
+        "window": "year",
+        "k": 0.9,
+        "schema": "phase_3",
+        "k_result": {
+          "schema": "phase_3",
+          "k": 0.9,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.898099850449251,
+          "carbon_emissions_total": 0.9205481742032424,
+          "ramping_average": 0.8119208847329366,
+          "C": 0.898099850449251,
+          "G": 0.9205481742032424,
+          "D": 0.8870358280285932,
+          "mode_counts": {
+            "charge": 12638,
+            "hold": 26186,
+            "discharge_soft": 13742,
+            "discharge_hard": 8747
+          }
+        },
+        "k1_result": {
+          "schema": "phase_3",
+          "k": 1.0,
+          "window": "year",
+          "steps": 8759,
+          "cost_total": 0.8969519174878385,
+          "carbon_emissions_total": 0.9214406705125204,
+          "ramping_average": 0.8140356890166769,
+          "C": 0.8969519174878385,
+          "G": 0.9214406705125204,
+          "D": 0.887090479402121,
+          "mode_counts": {
+            "charge": 12638,
+            "hold": 26186,
+            "discharge_soft": 13742,
+            "discharge_hard": 8747
+          }
+        },
+        "beats_k1": {
+          "cost_total": false,
+          "carbon_emissions_total": true,
+          "ramping_average": true,
+          "D": true
+        }
+      }
+    ]
+  }
+}
